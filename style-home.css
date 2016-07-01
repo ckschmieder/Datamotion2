@@ -1,0 +1,151 @@
+section.home-section .text {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 960px) {
+  section.home-section .text {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 720px) {
+  section.home-section .text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 600px) {
+  section.home-section .text {
+    font-size: 12px;
+  }
+}
+section.home-section {
+  position: relative;
+  border-top: 2px solid orange;
+}
+section.home-section .section-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 2px solid red;
+  padding: 2em 2em;
+}
+section.home-section h1,
+section.home-section h2,
+section.home-section h3,
+section.home-section p {
+  font-family: "proxima-nova";
+}
+section.home-section h1 {
+  font-size: 1.6875em;
+}
+section.home-section h2 {
+  font-size: 1.4375em;
+}
+section.home-section p {
+  font-size: 1em;
+}
+section.home-section img {
+  width: 100%;
+}
+section.home-section .text {
+  z-index: 9999999;
+  max-width: 35%;
+}
+section.home-section .text.left {
+  float: left;
+}
+section.home-section .text.right {
+  float: right;
+}
+
+section#video .video-container {
+  z-index: 99999999;
+}
+section#video .container {
+  height: 100%;
+}
+section#video .container .row {
+  height: 100%;
+}
+section#video .container .row div {
+  height: 100%;
+}
+
+section#lock {
+  background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-4.jpg");
+  background-size: cover;
+}
+
+.video-container {
+  width: 100%;
+}
+
+section#hero-2 {
+  background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-5.jpg");
+  background-size: cover;
+}
+
+section#social {
+  background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-6.jpg");
+  background-size: cover;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-slide a:hover {
+  text-decoration: none;
+}
+.slick-slide img {
+  padding: 15px 0;
+  margin: 0 auto;
+  max-height: 140px;
+  border-bottom: 7px solid gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+.slick-slide p {
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.slick-slide:hover img,
+.slick-slide:active img {
+  border-bottom: 7px solid purple;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+.slick-slide:hover p,
+.slick-slide:active p {
+  visibility: visible;
+}
+
+body {
+  padding-top: 70px;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+  margin-bottom: 25px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.flex-wrap.logos-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flex-wrap.logos-wrap .case-logo {
+  width: 19%;
+}

@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=ISO-8859-1">
+    <meta content="MSHTML 6.00.2900.2853" name="GENERATOR">
+    <style></style>
+    <title>Welcome to DataMotion</title>
+  </head>
+  <body text="#000000" bgcolor="#ffffff">
+    <div><font face="Arial">Dear %FIRSTNAME%,</font></div>
+    <div>&nbsp;</div>
+    <font face="Arial">Thank you for starting your five-user, 14-day
+      DataMotion trial on %NOW%.&nbsp; With DataMotion you can easily send
+      sensitive messages and files without making changes to your
+      existing email systems. <br>
+      <br>
+    </font><font face="Arial">Now that you have set up your password be
+      sure and review the attached <i>SecureMail for Microsoft Outlook
+        Quick Start Guide.pdf</i> to download and start using the
+      SecureMail for Microsoft Outlook add-in.</font><br>
+    <font face="Arial"> <br>
+    </font><font face="Arial"> As the administrator of your trial,
+      review the attached <i>SecureMail Administrator Guide.pdf</i> to
+      add up to four (4) trial users to your company account. Please
+      note that all users in the trial will have the same expiration
+      date of 14 days from the start date listed above.<br>
+      <br>
+    </font><font face="Arial"> Please contact us at <a
+        href="mailto:info@datamotion.com">info@datamotion.com</a> if you
+      have any issues or questions or if you wish to schedule a live
+      in-depth overview of SecureMail.<br>
+      <br>
+      To purchase DataMotion today or at any time during your trial
+      period, click <a
+        href="http://www.datamotion.com/Resources/Purchase.aspx">here</a>.<br>
+      <br>
+      Sincerely,<br>
+      The Team at DataMotion<br>
+      <a class="moz-txt-link-abbreviated"
+        href="mailto:info@datamotion.com">info@datamotion.com</a> <br>
+      1-800-672-7233 <br>
+      <a class="moz-txt-link-abbreviated"
+        href="http://www.datamotion.com">www.datamotion.com</a></font>
+  </body>
+</html>
