@@ -161,6 +161,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    padding: 0!important;
     
   }
   #main section#video .video-container {
@@ -177,7 +178,7 @@
   @media screen and (max-width: 599px) {
     #main section#video {
       height: 55vw;
-      padding: 0;
+      
     }
     #main section#video .video-container {
       width: 100%;
@@ -197,8 +198,8 @@
       height: 100%;
       justify-content: space-around;
       max-width: 35%;
-    margin-left: 60%;
-    margin-right: 0;
+      margin-left: 60%;
+      margin-right: 0;
     }
   }
   #main section#cross {
@@ -460,12 +461,15 @@
       display: flex;
       padding: 1rem .75rem;
     }
-    #main ul.lock.mob-menu {
-      padding: 0;
-    }
+    
+  }
+
+  .button-wrap.mob-menu {
+    padding: 0!important
   }
 
 }
+
 // footer
 .footer_flex_wrap {
     display: flex;
@@ -503,6 +507,6 @@ body .footer_info_links ul {
 }
 
 // nav fix
-div#navigation {
+#navigation {
     width: 95%;
 }
