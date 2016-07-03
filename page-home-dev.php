@@ -42,7 +42,7 @@
 
         if ($logos->total()):
       ?>
-          <div class="">
+          
             <div class="three_column customer_slider_container">
               <h2>A platform for success</h2>
               <p>See how others protect their data and streamline their workflows.</p>
@@ -68,7 +68,7 @@
                 </ul>
               </div>
             </div>
-          </div>
+          
         <?php endif; ?>
       <?php endif; ?>
 
@@ -119,16 +119,14 @@
     <p>Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
   </div>
   <section id="social" class="cta-section home-section nav-section">
-    <aside id="cross-aside" class="left">
-      <h3>Stay up to date with us...</h3>
-      <ul id="cta-menu" class="link-wrap cta">
-        <li class="new-link"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
-        <li class="new-link"><a href="https://www.datamotion.com/category/news/">News</a></li>
-        <li class="new-link"><a href="https://www.datamotion.com/category/news/">Events</a></li>
-        <li class="new-link"><a href="https://www.datamotion.com/about-us/contact-us/">Contact Us</a></li>
-        <li class="new-link"><a href="#">Email Sign-up</a></li>
-      </ul>
-    </aside>
+    <h3>Stay up to date with us...</h3>
+    <ul id="cta-menu" class="link-wrap cta">
+      <li class="new-link"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
+      <li class="new-link"><a href="https://www.datamotion.com/category/news/">News</a></li>
+      <li class="new-link"><a href="https://www.datamotion.com/category/news/">Events</a></li>
+      <li class="new-link"><a href="https://www.datamotion.com/about-us/contact-us/">Contact Us</a></li>
+      <li class="new-link"><a href="#">Email Sign-up</a></li>
+    </ul>
     <!-- Put Social Icons HERE -->
   </section>
 </div><!-- END #main -->

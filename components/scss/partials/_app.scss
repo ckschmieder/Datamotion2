@@ -146,7 +146,8 @@
     flex: 0 1 28%;
   }
   #main section.home-section aside.hero {
-    max-width: 40%;
+    width: 19em;
+    max-width: 48%;
   }
   #main section#hero {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-1.jpg");
@@ -292,47 +293,67 @@
     ul.desk-menu.primary-menu {
       display: flex;
       // max-width: 82%;
-      margin: 0 auto;
       justify-content: space-between;
       flex-flow: row wrap;
       list-style-type: none;
     }
 
-    .new-button a {
-      padding: .5em .8em;
-      border: 2px solid #465259;
-      background-color: #fff;
-      border-radius: 5px;
-      color: #465259;
-      font-family: 'proxima-nova';
-      font-weight: bold;
-      font-size: 15px;
-      text-decoration: none;
-      box-sizing: border-box;
-      text-align: center;
-      vertical-align: middle;
-      display: flex;
+
+
+    .new-button {
+      display: block;
+      margin-top: .5em;
+
+      a {
+        padding: .5em .8em;
+        border: 2px solid #465259;
+        background-color: #fff;
+        border-radius: 5px;
+        color: #465259;
+        font-family: 'proxima-nova';
+        font-weight: bold;
+        font-size: 15px;
+        text-decoration: none;
+        box-sizing: border-box;
+        text-align: center;
+        vertical-align: middle;
+        display: flex;
+      }
+
+      .lock.desk-menu .new-button {
+        display: block;
+      }
+    
     }
+    @media screen and (max-width: 710px) {
+      #main ul.desk-menu.primary-menu {
+        max-width: 70%;
+        justify-content: flex-start;
+
+        li a {
+          margin-right: .5em;
+        }
+      }
+
+      #main .new-button a {
+        padding: .3em .6em;
+      }
+    }
+    
     .button-wrap.lock {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-
-      // max-width: 40%; 
     }
 
-    .new-button {
-        display: flex;
-        margin-top: 1em;
-    }
     .new-button a:hover {
       background-color: #932D91;
       color: #fff;
       border-color: #fff;
+      box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.65);
     }
 
   }
-
 
 
    @media screen and (max-width: 690px) {
@@ -346,6 +367,7 @@
     /* height: 100%; */
     display: flex;
     border-top: 2px solid #e4772f;
+    padding: 1rem .75rem;
   }
 
   .three_column.customer_slider_container {
@@ -354,8 +376,25 @@
       padding: 0;
   }
 
+
+  @media screen and (max-width: 599px) {
+
+    section#logos {
+      padding: 1.5rem .75rem;
+    }
+
+    .three_column.customer_slider_container {
+
+      h2 {
+        margin-bottom: .2em;
+      }
+
+    } 
+
+  }
+
   .logo-slider-wrap {
-      margin: 2em 0;
+    
   }
 
 // Nav buttons - mobile
@@ -401,30 +440,35 @@
       font-size: 18px;
     }
   }
-  #cta-menu li a {
-    margin-bottom: 0;
-    border-bottom: 2px solid #90979B;
-    text-decoration: none;
-    font-family: 'proxima-nova';
-    font-size: 15px;
-    font-weight: bold;
-  }
+
   #cta-menu {
     justify-content: flex-start;
     list-style-type: none;
   }
+
   #cta-menu li a {
     margin-bottom: 0;
-    border-bottom: 5px solid #44555F;
+    border-bottom: 3px solid #44555F;
     padding-bottom: .3em;
     text-decoration: none;
     font-family: 'proxima-nova';
     font-size: 15px;
     font-weight: bold;
+    transition: border-bottom-width .05s cubic-bezier(1,0,0,1);
   }
+
+  @media screen and (min-width: 600px) {
+    #cta-menu li a:hover,
+    #cta-menu li a:active {
+      border-bottom-width: 5px;
+      border-bottom-color: #932D91;
+    }
+  }
+
   li.new-link {
     margin-right: 2em;
   }
+
   @media screen and (max-width: 599px) {
     aside#cross-aside {
       max-width: 100%;
@@ -437,6 +481,7 @@
         margin-bottom: 0;
       }
     }
+
     li.new-link {
       margin-right: 0;
       // height: 54px;
@@ -504,6 +549,11 @@ body footer .member_images .ehnac {
 
 body .footer_info_links ul {
     text-align: left;
+}
+
+// fixed footer img width to remove the blank space on it's right added in by oversizing
+body footer .member_images .direct_trust {
+    width: 145px;
 }
 
 // nav fix

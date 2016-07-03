@@ -172,11 +172,14 @@ function dm_enqueue_styles() {
 	wp_enqueue_style('dm-style');
 	
 	wp_register_style( 'lander-styles', get_template_directory_uri() . '/builds/development/css/home-style.css' );
+	wp_register_style( 'font-awesome', 'http:////maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
 
 	if (is_page('home-dev') ) {
 		wp_enqueue_style( 'lander-styles');
+		wp_enqueue_style('font-awesome'); 
 	}
 }
 add_action('wp_enqueue_scripts', 'dm_enqueue_styles');
 
 ?>
+    
