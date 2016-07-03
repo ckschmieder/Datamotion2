@@ -318,13 +318,22 @@
         text-align: center;
         vertical-align: middle;
         display: flex;
-      }
+      } 
 
       .lock.desk-menu .new-button {
         display: block;
       }
     
     }
+
+    @media only screen and (min-width:600px) and (max-width: 710px)  {
+
+      #main .new-button a {
+        padding: .3em .6em;
+      }
+
+    }
+
     @media screen and (max-width: 710px) {
       #main ul.desk-menu.primary-menu {
         max-width: 70%;
@@ -335,9 +344,6 @@
         }
       }
 
-      #main .new-button a {
-        padding: .3em .6em;
-      }
     }
     
     .button-wrap.lock {
