@@ -1,0 +1,17 @@
+#main > section {
+    padding: 0 0 0 0!important;
+    display: block!important;
+    padding: 3% 0!important;
+}
+
+.indent {
+    margin: 0;
+    padding: 0 6%;
+}
+
+.flex-wrap {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}

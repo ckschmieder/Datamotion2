@@ -128,6 +128,10 @@
   @media screen and (max-width: 599px) {
     #main #social.home-section {
         padding: 0;
+
+        h3 {
+          margin: .5em!important;
+        }
     }
   }
     #main section.home-section h2, #main section.home-section h3, #main section.home-section p {
@@ -194,12 +198,13 @@
 
     aside.right {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       align-items: flex-start;
       height: 100%;
-      justify-content: space-around;
-      max-width: 35%;
-      margin-left: 60%;
+      justify-content: flex-start;
+      max-width: 45%;
+      padding-left: 55%;
       margin-right: 0;
     }
   }
@@ -315,7 +320,6 @@
         font-size: 15px;
         text-decoration: none;
         box-sizing: border-box;
-        text-align: center;
         vertical-align: middle;
         display: flex;
       } 
@@ -335,7 +339,7 @@
     }
 
     @media screen and (max-width: 710px) {
-      #main ul.desk-menu.primary-menu {
+      ul.desk-menu.primary-menu {
         max-width: 70%;
         justify-content: flex-start;
 
@@ -350,6 +354,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      align-self: flex-end;
     }
 
     .new-button a:hover {
@@ -360,7 +365,6 @@
     }
 
   }
-
 
    @media screen and (max-width: 690px) {
     .new-button a {
@@ -381,7 +385,6 @@
       border-top: none;
       padding: 0;
   }
-
 
   @media screen and (max-width: 599px) {
 
@@ -424,11 +427,12 @@
       background-color: #465259;
       color: #fff;
       padding: 1rem .75rem;
-      line-height: 20px;
+      line-height: 1em;
       font-family: 'proxima-nova';
       font-size: 14px;
       font-weight: bold;
   }
+
   #lock-menu {
     display: flex;
     flex-direction: column;
@@ -450,7 +454,7 @@
   #cta-menu {
     justify-content: flex-start;
     list-style-type: none;
-  }
+  } 
 
   #cta-menu li a {
     margin-bottom: 0;
