@@ -126,7 +126,9 @@ function dm_enqueue_scripts() {
 	wp_enqueue_script('dm-master'); // Enqueue this in production instead of dm-main
 	wp_enqueue_script('dm-events');
 	if (is_page('home-dev') ) {
+		wp_enqueue_script( 'slick-carousel-script', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js' );
 		wp_enqueue_script( 'lander-scripts', get_template_directory_uri() . '/builds/development/js/home-script.js' );
+
 	}
 }
 add_action('wp_enqueue_scripts', 'dm_enqueue_scripts');
@@ -171,12 +173,17 @@ function dm_enqueue_styles() {
 
 	wp_enqueue_style('dm-style');
 	
-	wp_register_style( 'lander-styles', get_template_directory_uri() . '/builds/development/css/home-style.css' );
 	wp_register_style( 'font-awesome', 'http:////maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+	wp_register_style( 'slick-carousel', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css' );
+	wp_register_style( 'slick-carousel-theme', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css' );
+	wp_register_style( 'lander-styles', get_template_directory_uri() . '/builds/development/css/home-style.css' );
 
 	if (is_page('home-dev') ) {
-		wp_enqueue_style( 'lander-styles');
 		wp_enqueue_style('font-awesome'); 
+		wp_enqueue_style('slick-carousel'); 
+		wp_enqueue_style('slick-carousel-theme'); 
+		wp_enqueue_style( 'lander-styles');
+		
 	}
 }
 add_action('wp_enqueue_scripts', 'dm_enqueue_styles');

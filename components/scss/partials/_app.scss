@@ -571,3 +571,97 @@ body footer .member_images .direct_trust {
 #navigation {
     width: 95%;
 }
+
+
+// Slick Slider and new slider section styles
+#main a:focus {
+    outline: none;
+}
+#logo-slider {
+  background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-3.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+.indent {
+  padding: 7% 5%;
+}
+.indent.slider {
+  padding: 6% 5% 5%;
+}
+
+.slick-slider {
+  margin: 1em 0;
+}
+
+@media screen and (max-width: 460px) {
+  .slick-slider {
+      margin: 0 25px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  
+  .indent {
+    padding: 1.5rem .75rem;
+  }
+  #main .slick-slide {
+  
+    img {
+      border-bottom: none;
+    }
+    p {
+      display: none;
+    }
+    
+  }
+}
+
+.slick-arrow {
+    display: block;
+    color: black;
+    background-color: gray;
+    border-radius: 180px;
+}
+
+.slick-slide {  
+  
+  margin: 0 16px;
+  a:hover {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    max-height: 140px;
+    border-bottom: 5px solid gray;
+    -webkit-filter: grayscale(1);
+  }
+  
+  p {
+    color: #932D91;
+    text-decoration: none;
+    text-align: center;
+    padding-top: .8em;
+    text-decoration: none;
+    visibility: hidden;
+  }
+}
+
+.slick-slide:hover,
+.slick-slide:active {
+  img {
+    border-bottom: 5px solid #932D91;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  p {
+    visibility: visible;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 25px;
+}

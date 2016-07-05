@@ -32,57 +32,52 @@
     </aside>
   </section>
 
-  <section id="logos" class="home-section-slider">
-    <div class="logo-slider-wrap">  
-      <?php
-      if (is_page()) {
-        global $post;
-        $page        = pods('page', $post->ID);
-        $hide_slider = (bool)$page->field('hide_footer_slider');
-      } else {
-        $hide_slider = false;
-      }
-
-      if (!$hide_slider):
-        $logos = pods('partner_logos', array(
-          'where'   => 't.published = 1',
-          'orderby' => 't.order_number ASC',
-          'limit'   => 12,
-        ));
-
-        if ($logos->total()):
-      ?>
-          
-            <div class="three_column customer_slider_container">
-              <h2>A platform for success</h2>
-              <p>See how others protect their data and streamline their workflows.</p>
-              <div id="customer_slider">
-                <ul class="slides">
-                  <?php while ($logos->fetch()): ?>
-                    <li>
-                      <?php
-                      $img = $logos->field('logo');
-                      $retina_img = $logos->field('hi_res_logo');
-                      $link_url = $logos->field('link_url');
-                      $data_attr = $retina_img ? ' data-retina-src="' . $retina_img['guid'] . '"' : '';
-                      ?>
-                      <?php if ($link_url): ?>
-                        <a href="<?php echo $link_url; ?>" target="_blank">
-                      <?php endif; ?>
-                      <img src="<?php echo $img['guid']; ?>" width="222" alt="<?php echo $logos->field('name'); ?>"<?php echo $data_attr; ?>>
-                      <?php if ($link_url): ?>
-                        </a>
-                      <?php endif; ?>
-                    </li>
-                  <?php endwhile; ?>
-                </ul>
-              </div>
+  <section id="logo-slider" class="home-section-slider">
+      <div class="indent slider">
+      <aside class="slider-text">
+        <h2>A platform for success</h2>
+            <p>See how others protect their data and streamline their workflows.</p>
+      </aside>
+      <div class="gallery gallery-responsive portfolio_slider">
+            <div class="inner">
+              <a href="#">
+                <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/dell_blue_rgb-222-140.jpg" alt="dell">
+                <p>View Case Study</p>
+              </a>
             </div>
-          
-        <?php endif; ?>
-      <?php endif; ?>
-    </div>
-  </section>
+            <div class="inner">
+              <a href="#">
+                <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="">
+                <p>View Case Study</p>
+              </a>
+            </div>
+        <div class="inner">
+              <a href="#">
+                <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/MS-Gold-Application-Partner-Boost_222x140b.png" alt="microsoft partner">
+                <p>View Case Study</p>
+              </a>
+            </div>
+            <div class="inner">
+              <a href="#">
+                <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
+                <p>View Case Study</p>
+              </a>
+            </div>
+            <div class="inner">
+              <a href="#">
+                <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
+                <p>View Case Study</p>
+              </a>
+            </div>
+            <div class="inner">
+              <a href="#">
+                <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/Rite_Aid_Pharmacy.jpg" alt="rite aid pharmacy">
+                <p>View Case Study</p>
+              </a>
+            </div>
+          </div>
+      </div> <!-- end .indent -->
+    </section>
 
   <div class="mobile video">
     <h2>Security & compliance - it's required</h2>
