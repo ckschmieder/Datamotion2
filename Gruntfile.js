@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         },
         files : [{
           src: 'components/scss/main.scss',
-          dest: 'builds/development/css/home-style.css'
+          dest: 'builds/development/css/home-style-clean.css'
         }]
       },
       prod: {
@@ -37,8 +37,12 @@ module.exports = function(grunt) {
     }, //sass
 
     autoprefixer: {
-      multiple_files: {
-        src: "builds/development/css/home-style.css"
+      /*options: {
+        browsers: []
+      },*/
+      single_file: {
+         src: 'builds/development/css/home-style-clean.css',
+         dest: 'builds/development/css/home-style.css'
       }
     }, //autoprefixer
 

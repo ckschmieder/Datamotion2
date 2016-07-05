@@ -128,18 +128,18 @@ function dm_enqueue_scripts() {
 	wp_enqueue_script('dm-master'); // Enqueue this in production instead of dm-main
 	wp_enqueue_script('dm-events');
 
-	if ( wp_script_is( 'lander-script', 'registered' ) ) {
+	/*if ( wp_script_is( 'lander-script', 'registered' ) ) {
         // ...deregister it first...
         wp_deregister_style( 'lander-script' );
         // ...and re-register it with our own, modified bootstrap-main.css...
         wp_register_style( 'lander-script', get_template_directory_uri() . '/builds/development/js/home-script.js' );
 
-    }
+    }*/
 
 	if ( is_page('home-dev') ) {
 		// wp_enqueue_script( 'slick-carousel-script', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js' );
-		wp_enqueue_script( 'slick-script', get_template_directory_uri() . '/builds/development/js/slick.min.js', array ( 'jquery' ), null, true);
-		wp_enqueue_script( 'lander-script' );
+		wp_enqueue_script( 'slick-script', 'https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js', array ( 'jquery-19' ), null, true);
+		wp_enqueue_script( 'lander-script', get_template_directory_uri() . '/builds/development/js/home-script.js', array('jquery-19'), null, true);
 
 	}
 }
@@ -185,9 +185,9 @@ function dm_enqueue_styles() {
 
 	wp_enqueue_style('dm-style');
 	
-	wp_register_style( 'font-awesome', 'http:////maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
-	wp_register_style( 'slick-carousel', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css' );
-	wp_register_style( 'slick-carousel-theme', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css' );
+	wp_register_style( 'font-awesome', 'https:////maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' );
+	wp_register_style( 'slick-carousel', 'https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css' );
+	wp_register_style( 'slick-carousel-theme', 'https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css' );
 	// wp_register_style( 'lander-styles', get_template_directory_uri() . '/builds/development/css/home-style.css', array('font-awesome', 'slick-carousel', 'slick-carousel-theme' ), '0.1', 'screen' );
 
 	if (is_page('home-dev') ) {

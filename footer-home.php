@@ -17,7 +17,7 @@
 
       <div class="footer_text_wrap">
         <div class="footer_contact_info">
-          <p>DataMotion, INc., 200 Park Ave, Suite 302, Florham Park, NJ 07932<br>(800) 672-7233 or (973) 455-1245</p>
+          <p>DataMotion, Inc., 200 Park Ave, Suite 302, Florham Park, NJ 07932<br>(800) 672-7233 or (973) 455-1245</p>
         </div>
 
       	<div class="footer_info_links">
