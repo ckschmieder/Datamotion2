@@ -756,26 +756,17 @@ background-size: cover;
 
 // font-awesome styles
 .fa {
-    line-height: 1.4;
-    margin-right: .6em;
-    font-size: 15px;
+    padding: 2px 4px;
+    margin-right: .8em;
     background-color: #465259;
-    color: white;
-    border-radius: 360px;
-    padding: .1em .3em;
-    text-align: center;
-    vertical-align: middle;
+    border-radius: 35px;
+    font-size: .8em;
+    line-height: 16px;
+    color: #fff;
+    /*box-sizing: content-box;*/
 }
 
-span.fontawesome-text {
-    font-size: 15px;
-    line-height: 1;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-}
-
-.fa-md:hover {
-    background-color: inherit;
-    color: inherit;
+#main .new-button a:hover i.fa {
+    background-color: #fff;
+    color: #932D91;
 }
