@@ -411,25 +411,12 @@
     padding: 1rem .75rem;
   }
 
-  .three_column.customer_slider_container {
-      border-bottom: none;
-      border-top: none;
-      padding: 0;
-  }
 
   @media screen and (max-width: 599px) {
 
     section#logos {
       padding: 1.5rem .75rem;
     }
-
-    .three_column.customer_slider_container {
-
-      h2 {
-        margin-bottom: .2em;
-      }
-
-    } 
 
   }
 
@@ -691,7 +678,7 @@ background-size: cover;
 .slick-arrow {
     display: block;
     color: black;
-    background-color: gray;
+    background-color: #465259;
     border-radius: 180px;
 }
 
@@ -707,7 +694,7 @@ background-size: cover;
     padding: 15px 0;
     margin: 0 auto;
     max-height: 140px;
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid #465259;
     -webkit-filter: grayscale(1);
   }
   
@@ -730,6 +717,7 @@ background-size: cover;
   }
   p {
     visibility: visible;
+    color: #932D91;
   }
 }
 

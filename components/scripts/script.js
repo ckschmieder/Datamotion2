@@ -72,7 +72,7 @@
 $('.gallery-responsive').slick({
   dots: false,
   accessibility: true,
-  autoplay: false,
+  autoplay: true,
   infinite: true,
   speed: 300,
   arrows: false,
@@ -102,7 +102,7 @@ $('.gallery-responsive').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
