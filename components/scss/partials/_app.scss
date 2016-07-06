@@ -317,14 +317,12 @@
       list-style-type: none;
     }
 
-
-
     .new-button {
       display: block;
       margin-top: .5em;
 
       a {
-        padding: .7em .8em;
+        padding: .4em .6em;
         border: 1px solid #465259;
         background-color: #fff;
         border-radius: 5px;
@@ -337,7 +335,7 @@
         vertical-align: middle;
         display: flex;
         display: -webkit-flex;
-        line-height: 1em;
+        line-height: 20px;
       } 
 
       .lock.desk-menu .new-button {
@@ -391,12 +389,11 @@
       border-color: #90979B;
       // box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.65);
     }
-    .new-link a:hover {
+    /* .new-link a:hover {
       background-color: #932D91;
       color: #fff;
       border-color: #90979B;
-      // box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.65);
-    }
+    } */
 
   }
 
@@ -677,7 +674,7 @@ background-size: cover;
   }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 460px) {
 
   .slick-arrow.slick-next {
     right: 0;
@@ -766,8 +763,8 @@ background-size: cover;
 }
 
 // font-awesome styles
-.fa {
-    padding: 2px 4px;
+li .fa {
+    padding: 2px 3px;
     margin-right: .8em;
     background-color: #465259;
     border-radius: 35px;
@@ -776,8 +773,31 @@ background-size: cover;
     color: #fff;
     /*box-sizing: content-box;*/
 }
+.fa.fa-heartbeat {
+  padding: 3px 3px;
+}
 
 #main .new-button a:hover i.fa {
     background-color: #fff;
     color: #932D91;
 }
+
+ul.mob-menu li a i {
+  // display: none;
+}
+span.fontawesome-text {
+    margin-top: 1px;
+}
+
+// tooltip shadow
+.tooltip-right:hover:after {
+    box-shadow: 2px -2px 10px 0px rgba(0, 0, 0, 0.95);
+}
+/* .fa {
+    padding: .4rem .4em .3em;
+    margin-right: .8em;
+    background-color: #465259;
+    border-radius: 35px;
+    font-size: .7rem;
+    line-height: 1;
+} */

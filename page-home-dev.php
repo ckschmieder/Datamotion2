@@ -28,9 +28,20 @@
     </div>
     <aside class="right desk">
       <h2>Security & compliance</br>- it's required</h2>
-      <p>Securing communications containing PHI and PII <a href="" data-toggle="tooltip" data-placement="right" title="Test tooltip">i</a> is not optional - it's a legal requirement.</p>
+      <p>Securing communications containing PHI and PII 
+        <a class="tooltip-right" data-tooltip="I’m the tooltip text">
+          <span class="fa-stack">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-info fa-stack-1x"></i>
+          </span>
+        </a> is not optional - it's a legal requirement.</p>
+
     </aside>
   </section>
+  <div class="mobile video">
+    <h2>Security & compliance - it's required</h2>
+    <p>Securing communications containing PHI and PII <a href="" data-toggle="tooltip" data-placement="right" title="Test tooltip">i</a> is not optional - it's a legal requirement.</p>
+  </div>
 
   <section id="logo-slider" class="home-section-slider">
       <div class="indent slider">
@@ -78,11 +89,6 @@
         </div>
       </div> <!-- end .indent -->
     </section>
-
-  <div class="mobile video">
-    <h2>Security & compliance - it's required</h2>
-    <p>Securing communications containing PHI and PII <a href="" data-toggle="tooltip" data-placement="right" title="Test tooltip">i</a> is not optional - it's a legal requirement.</p>
-  </div>
 
   <section id="lock" class="home-section">
     <aside class="right">
