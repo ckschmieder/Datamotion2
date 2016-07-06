@@ -24,8 +24,8 @@ module.exports = function(grunt) {
           src: 'components/scss/main.scss',
           dest: 'builds/development/css/home-style-clean.css'
         }]
-      },
-      prod: {
+      }
+      /*prod: {
         options: {
           style: 'compressed'
         },
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
           src: 'components/sass/style.scss',
           dest: 'builds/production/css/style.css'
         }]
-      }
+      }*/
     }, //sass
 
     autoprefixer: {
@@ -99,7 +99,7 @@ module.exports = function(grunt) {
       scripts: {
         files: ['components/scripts/**/*.js',
         'components/scss/partials/*.scss'],
-        tasks: ['concat', 'sass']
+        tasks: ['default']
       }
     }
 
@@ -114,6 +114,6 @@ module.exports = function(grunt) {
   // grunt.loadNpmTasks('grunt-bower-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['concat', 'sass:dist', 'autoprefixer', 'cssmin', 'watch' ]);
+  grunt.registerTask('default', ['concat', 'sass:dist', 'autoprefixer', 'watch' ]);
 
 }; //wrapper function

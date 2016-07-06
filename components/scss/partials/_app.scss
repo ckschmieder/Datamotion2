@@ -19,6 +19,16 @@
     section.home-section {
       
     }
+    
+    .desk {
+      display: none;
+    }
+    .mobile {
+      margin: 0;
+    }
+  }
+
+  body {
     h1, h2, h3, p {
       margin-top: 0;
       font-family: 'proxima-nova';
@@ -28,12 +38,6 @@
     }
     p {
       line-height: 1.5em;
-    }
-    .desk {
-      display: none;
-    }
-    .mobile {
-      margin: 0;
     }
   }
  
@@ -616,7 +620,6 @@ body .footer_info_links ul {
         font-size: 14px;
       }
     }
-
     
 }
 
@@ -629,7 +632,6 @@ body footer .member_images .direct_trust {
 #navigation {
     width: 95%;
 }
-
 
 // Slick Slider and new slider section styles
 #main a:focus {
@@ -663,7 +665,7 @@ background-size: cover;
   .indent {
     padding: 1.5rem .75rem;
   }
-  #main .slick-slide {
+  .slick-slide {
   
     img {
       border-bottom: none;
@@ -675,6 +677,20 @@ background-size: cover;
   }
 }
 
+@media screen and (max-width: 599px) {
+
+  .slick-arrow.slick-next {
+    right: 0;
+  }
+  .slick-arrow.slick-prev {
+    left: 0;
+  }
+  .slick-list.draggable {
+    margin: 0 25px;
+  }
+
+}
+
 .slick-arrow {
     display: block;
     color: black;
@@ -682,7 +698,13 @@ background-size: cover;
     border-radius: 180px;
 }
 
-#main .slick-slide {  
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: #465259;
+}
+
+.slick-slide {  
   
   margin: 0 16px;
   a:hover {
@@ -694,8 +716,9 @@ background-size: cover;
     padding: 15px 0;
     margin: 0 auto;
     max-height: 140px;
-    border-bottom: 5px solid #465259;
+    border-bottom: 4px solid #465259;
     -webkit-filter: grayscale(1);
+    filter: grayscale(1);
   }
   
   p {
@@ -708,10 +731,10 @@ background-size: cover;
   }
 }
 
-.slick-slide:hover,
-.slick-slide:active {
+.slick-slide a:hover,
+.slick-slide a:active {
   img {
-    border-bottom: 5px solid #932D91;
+    border-bottom: 4px solid #932D91;
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
   }
