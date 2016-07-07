@@ -1,0 +1,62 @@
+
+/*--------------------------------------------------------------
+# Button Hover Effects
+--------------------------------------------------------------*/
+
+// Add the class below to the desited DOM element within the HTML
+  // See hover.css for more animations (found within the npm modules folder)
+
+/* Sweep To Bottom */
+.new-button a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.new-button a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #932D91;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.new-button a:hover, .new-button a:focus, .new-button a:active {
+  color: white;
+}
+.new-button a:hover:before, .new-button a:focus:before, .new-button a:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+// font-awesome icon hover state
+.new-button a:hover i.fa, .new-button a:focus i.fa, .new-button a:active i.fa {
+  color: #932D91;
+  background-color: #fff;
+}
+.new-button a:hover i.fa:before, .new-button a:focus i.fa:before, .new-button a:active i.fa:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}

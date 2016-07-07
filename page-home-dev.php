@@ -9,8 +9,8 @@
 
   <section id="hero" class="home-section nav-section">
     <aside class="left hero">
-      <h2>Protect your data -</br>and your reputation</h2>
-      <p class="desk">Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
+      <h2 class="animated fadeInLeft">Protect your data -</br>and your reputation</h2>
+      <p class="desk animated fadeInDown">Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
     </aside>
     <div class="section_menu_contain">
       <?php wp_nav_menu(array('container' => 'ul', 'menu_class' => 'desk-menu primary-menu', 'theme_location' => 'info-new')); ?>
@@ -27,9 +27,9 @@
       <div id="player"></div>
     </div>
     <aside class="right desk">
-      <h2>Security & compliance</br>- it's required</h2>
-      <p>Securing communications containing PHI and PII 
-        <a class="tooltip-right" data-tooltip="I’m the tooltip text">
+      <h2 class="animated fadeInRight">Security & compliance</br>- it's required</h2>
+      <p class="animated fadeInDown">Securing communications containing PHI and PII 
+        <a class="tooltip-right" data-tooltip="Protected health information (PHI) and Personally indentifiable information (PII)">
           <span class="fa-stack">
             <i class="fa fa-circle-thin fa-stack-2x"></i>
             <i class="fa fa-info fa-stack-1x"></i>
@@ -40,7 +40,12 @@
   </section>
   <div class="mobile video">
     <h2>Security & compliance - it's required</h2>
-    <p>Securing communications containing PHI and PII <a href="" data-toggle="tooltip" data-placement="right" title="Test tooltip">i</a> is not optional - it's a legal requirement.</p>
+    <p>Securing communications containing PHI and PII <a class="tooltip-right" data-tooltip="Protected health information (PHI) and Personally indentifiable information (PII)">
+          <span class="fa-stack">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-info fa-stack-1x"></i>
+          </span>
+        </a> is not optional - it's a legal requirement.</p> is not optional - it's a legal requirement.</p>
   </div>
 
   <section id="logo-slider" class="home-section-slider">
@@ -50,37 +55,37 @@
               <p>See how others protect their data and streamline their workflows.</p>
         </aside>
         <div class="gallery gallery-responsive portfolio_slider">
-          <div class="inner">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".2s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/dell_blue_rgb-222-140.jpg" alt="dell">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="inner">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".4s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="inner">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".6s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/MS-Gold-Application-Partner-Boost_222x140b.png" alt="microsoft partner">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="inner">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".8s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="inner">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="inner">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1.2s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/Rite_Aid_Pharmacy.jpg" alt="rite aid pharmacy">
               <p>View Case Study</p>
@@ -92,11 +97,11 @@
 
   <section id="lock" class="home-section">
     <aside class="right">
-      <h2>Build in security</br>& compliance</h2>
-      <p class="desk">Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
+      <h2 class="wow slideInRight">Build in security</br>& compliance</h2>
+      <p class="wow fadeInDown desk" data-wow-delay=".3s" data-wow-duration=".5s">Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
       <ul id="lock-menu" class="button-wrap lock desk-menu">
-        <li class="new-button"><a href="">IT Pro Solutions</a></li>
-        <li class="new-button"><a href="">App Developer Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay=".4s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="">App Developer Solutions</a></li>
       </ul>
     </aside>
   </section>

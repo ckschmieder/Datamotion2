@@ -139,6 +139,7 @@ function dm_enqueue_scripts() {
 	if ( is_page('home-dev') ) {
 		// wp_enqueue_script( 'slick-carousel-script', 'http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js' );
 		wp_enqueue_script( 'slick-script', 'https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js', array ( 'jquery-19' ), null, true);
+		wp_enqueue_script( 'wow-script', 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', false, null, flase);
 		wp_enqueue_script( 'lander-script', get_template_directory_uri() . '/builds/development/js/home-script.js', array('jquery-19'), null, true);
 
 	}

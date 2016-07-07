@@ -192,6 +192,7 @@
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%); */
+    
   }
 
   @media screen and (max-width: 599px) {
@@ -323,7 +324,7 @@
 
       a {
         padding: .4em .6em;
-        border: 1px solid #465259;
+        border: 2px solid #465259;
         background-color: #fff;
         border-radius: 5px;
         color: #465259;
@@ -336,6 +337,7 @@
         display: flex;
         display: -webkit-flex;
         line-height: 20px;
+        transition: border-color .2s linear;
       } 
 
       .lock.desk-menu .new-button {
@@ -377,7 +379,7 @@
     }
 
     .new-button a:hover {
-      background-color: #932D91;
+      // background-color: #932D91;
       color: #fff;
       border-color: #fff;
       box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.65);
@@ -771,28 +773,48 @@ li .fa {
     font-size: .8em;
     line-height: 16px;
     color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
     /*box-sizing: content-box;*/
 }
-.fa.fa-heartbeat {
-  padding: 3px 3px;
+.new-button a i.fa {
+  transition: all .2s linear;
+}
+// fix heart icon alignment by lowering it by 1px
+/* .fa-heartbeat:before {
+    position: relative;
+    top: 1px;
+} */
+
+.fa-info {
+  cursor: help;
 }
 
-#main .new-button a:hover i.fa {
+/* .fa.fa-heartbeat {
+  padding: 3px 3px;
+} */
+
+/* #main .new-button a:hover i.fa {
     background-color: #fff;
     color: #932D91;
-}
+} */
 
-ul.mob-menu li a i {
-  // display: none;
-}
+/* ul.mob-menu li a i {
+  display: none;
+} */
+
 span.fontawesome-text {
     margin-top: 1px;
 }
 
 // tooltip shadow
-.tooltip-right:hover:after {
+/* .tooltip-right:hover:after {
     box-shadow: 2px -2px 10px 0px rgba(0, 0, 0, 0.95);
-}
+} */
 /* .fa {
     padding: .4rem .4em .3em;
     margin-right: .8em;

@@ -1,4 +1,6 @@
 
+// Youtube Player API
+
  // 2. This code loads the IFrame Player API code asynchronously.
   var tag = document.createElement('script');
 
@@ -21,7 +23,8 @@
       playerVars: { 
        'autoplay': 0,
        'controls': 1, 
-       'rel' : 0
+       'rel' : 0,
+       'showinfo': 0
       }
     });
   }
@@ -45,26 +48,48 @@
     player.stopVideo();
   }
 
+// Initialize wow.js
+jQuery(document).ready(function(){
 
-// section width using jQuery
+var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       120,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null // optional scroll container selector, otherwise use window
+  }
+);
+wow.init();
 
-/*jQuery( window ).load(function($) { 
-// jQuery(document).ready(function($) {
+});
 
-  var wide = ($("#main").width());
-  jQuery(".home-section").height(wide * .44);
 
-  jQuery(window).resize(function() {
-    var wide = ($("#main").width());
-    $(".home-section").height(wide * .44);
-  });
 
-}); */
+// Set section width using jQuery
 
-// Enable tootips via bootstrap
-  /*$(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-  });*/
+    /*jQuery( window ).load(function($) { 
+    // jQuery(document).ready(function($) {
+
+      var wide = ($("#main").width());
+      jQuery(".home-section").height(wide * .44);
+
+      jQuery(window).resize(function() {
+        var wide = ($("#main").width());
+        $(".home-section").height(wide * .44);
+      });
+
+    }); */
+
+    // Enable tootips via bootstrap
+      /*$(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+      });*/
 
 
 
