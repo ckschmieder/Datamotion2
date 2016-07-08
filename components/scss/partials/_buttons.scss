@@ -7,7 +7,7 @@
   // See hover.css for more animations (found within the npm modules folder)
 
 /* Sweep To Bottom */
-.new-button a {
+/* .new-button a {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -31,6 +31,7 @@
   right: 0;
   bottom: 0;
   background: #932D91;
+  border-radius: 5px;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -41,15 +42,15 @@
   transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
+} */
 
-.new-button a:hover, .new-button a:focus, .new-button a:active {
+/* .new-button a:hover, .new-button a:focus, .new-button a:active {
   color: white;
 }
 .new-button a:hover:before, .new-button a:focus:before, .new-button a:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-}
+} */
 
 // font-awesome icon hover state
 .new-button a:hover i.fa, .new-button a:focus i.fa, .new-button a:active i.fa {

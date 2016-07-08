@@ -2,45 +2,68 @@
 // animation-delay: 0s;
 // animation-iteration-count: 0;
 
+
+// General base animations
+.animated {
+	animation-iteration-count: 1;
+}
+
 h2.animated {
 	animation-duration: 1.4s;
-	animation-delay: 1.6s;
-	animation-iteration-count: 1;
 }
 p.desk.animated {
 	animation-duration: 1.2s;
-	animation-delay: 2.9s;
-	animation-iteration-count: 1;
 }
  
 li.new-button.animated {
 	animation-duration: .8s;
-	animation-iteration-count: 1;
 }
 
-li.new-button.animated:nth-child(1) {
-	animation-delay: 4.2s;
-}
-li.new-button.animated:nth-child(2) {
-	animation-delay: 4.3s;
-}
-li.new-button.animated:nth-child(3) {
-	animation-delay: 4.4s;
-}
-li.new-button.animated:nth-child(4) {
-	animation-delay: 4.5s;
-}
-li.new-button.animated:nth-child(5) {
-	animation-delay: 4.6s;
+// Hero Section
+#hero {
+	h2.animated {
+		animation-duration: 1.4s;
+		animation-delay: 1.4s;
+	}
+	p.desk.animated {
+		animation-delay: 2.9s;
+	}
+
+	li.new-button.animated:nth-child(1) {
+		animation-delay: 4.2s;
+	}
+	li.new-button.animated:nth-child(2) {
+		animation-delay: 4.3s;
+	}
+	li.new-button.animated:nth-child(3) {
+		animation-delay: 4.4s;
+	}
+	li.new-button.animated:nth-child(4) {
+		animation-delay: 4.5s;
+	}
+	li.new-button.animated:nth-child(5) {
+		animation-delay: 4.6s;
+	}
 }
 
-#video.animated {
-	animation-duration: 1s;
-	animation-delay: 5.8s;
-	animation-iteration-count: 1;
+
+// Video Section
+#video {
+
+	.desk h2.animated {
+		animation-delay: 1.4s;
+	}
+	.desk p.animated {
+		animation-delay: 2.9s;
+	}
+	.video-container.animated {
+		animation-duration: 1.4s;
+		animation-delay: 1.4s;
+	}
+
 }
 
-.animated.healthcare_button {
+/* .animated.healthcare_button {
 	
 	
 	
@@ -48,7 +71,6 @@ li.new-button.animated:nth-child(5) {
 .animated.enterprise_button {
 	animation-duration: .8s;
 	animation-delay: 4.2s;
-	animation-iteration-count: 1;
 }
 .animated.healthcare_button {
 	animation-duration: .8s;
@@ -64,16 +86,4 @@ li.new-button.animated:nth-child(5) {
 	animation-duration: .8s;
 	animation-delay: 4.2s;
 	animation-iteration-count: 1;
-}
-
-// Video Section
-#video .desk h2.animated {
-	animation-duration: 1.4s;
-	animation-delay: 4.6s;
-	animation-iteration-count: 1;
-}
-#video .desk p.animated {
-	animation-duration: 1.2s;
-	animation-delay: 5.9s;
-	animation-iteration-count: 1;
-}
+} */

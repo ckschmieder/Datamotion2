@@ -9,7 +9,7 @@
 
   <section id="hero" class="home-section nav-section">
     <aside class="left hero">
-      <h2 class="animated fadeInLeft">Protect your data -</br>and your reputation</h2>
+      <h2 class="animated fadeIn"><span class="nobr">Protect your data - </span></br><span class="nobr">and your reputation</span></h2>
       <p class="desk animated fadeInDown">Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
     </aside>
     <div class="section_menu_contain">
@@ -17,19 +17,19 @@
     </div>
   </section>
   <div class="mobile hero">
-    <p>Send secure, compliant messages, email and files anywhere, to anywhere.</p>
+    <p>Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
   </div>
   
   <?php wp_nav_menu(array('menu_class' => 'mob-menu', 'container' => 'ul', 'theme_location' => 'info-new')); ?>
   
   <section id="video" class="home-section">
-    <div class="video-container">
+    <div class="animated fadeIn video-container">
       <div id="player"></div>
     </div>
     <aside class="right desk">
-      <h2 class="animated fadeInRight">Security & compliance</br>- it's required</h2>
+      <h2 class="animated fadeIn">Security & compliance</br>- it's required</h2>
       <p class="animated fadeInDown">Securing communications containing PHI and PII 
-        <a class="tooltip-right" data-tooltip="Protected health information (PHI) and Personally indentifiable information (PII)">
+        <a class="tooltip tooltip-top" data-tooltip="Protected health info and personally indentifiable info">
           <span class="fa-stack">
             <i class="fa fa-circle-thin fa-stack-2x"></i>
             <i class="fa fa-info fa-stack-1x"></i>
@@ -40,12 +40,7 @@
   </section>
   <div class="mobile video">
     <h2>Security & compliance - it's required</h2>
-    <p>Securing communications containing PHI and PII <a class="tooltip-right" data-tooltip="Protected health information (PHI) and Personally indentifiable information (PII)">
-          <span class="fa-stack">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-info fa-stack-1x"></i>
-          </span>
-        </a> is not optional - it's a legal requirement.</p> is not optional - it's a legal requirement.</p>
+    <p>Securing communications containing PHI and PII is not optional - it's a legal requirement.</p>
   </div>
 
   <section id="logo-slider" class="home-section-slider">
@@ -69,23 +64,17 @@
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".6s">
             <a href="#">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/MS-Gold-Application-Partner-Boost_222x140b.png" alt="microsoft partner">
+              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
               <p>View Case Study</p>
             </a>
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".8s">
             <a href="#">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
-              <p>View Case Study</p>
-            </a>
-          </div>
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1s">
-            <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1.2s">
+          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/Rite_Aid_Pharmacy.jpg" alt="rite aid pharmacy">
               <p>View Case Study</p>
@@ -97,7 +86,7 @@
 
   <section id="lock" class="home-section">
     <aside class="right">
-      <h2 class="wow slideInRight">Build in security</br>& compliance</h2>
+      <h2 class="wow fadeInRight">Build in security</br>& compliance</h2>
       <p class="wow fadeInDown desk" data-wow-delay=".3s" data-wow-duration=".5s">Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
       <ul id="lock-menu" class="button-wrap lock desk-menu">
         <li class="new-button wow flipInX" data-wow-delay=".4s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
@@ -116,16 +105,14 @@
 
   <section id="cross" class="home-section nav-section">
     <aside class="left">
-      <h2>Security & compliance shouldn't slow you down</h2>
-      <p class="desk">Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
+      <h2 class="wow fadeIn">Security & compliance shouldn't slow you down</h2>
+      <p class="wow fadeInDown desk">Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
     </aside>
-    <div class="section_menu_contain">
-      <?php wp_nav_menu(array('container' => 'ul', 'menu_class' => 'desk-menu primary-menu', 'theme_location' => 'info-new')); ?>
-    </div>
   </section>
 
   <div class="mobile cross">
     <p>Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
+    <?php wp_nav_menu(array('menu_class' => 'mob-menu', 'container' => 'ul', 'theme_location' => 'info-new')); ?>
   </div>
 
   <section id="social" class="cta-section home-section nav-section">

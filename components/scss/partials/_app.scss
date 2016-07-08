@@ -1,6 +1,12 @@
   body {
     margin: 0;
+
+    span {
+      font-size: inherit;
+      line-height: inherit;
+    }
   }
+
   #nav_contain::after {
     content: '';
     display: block;
@@ -40,6 +46,10 @@
       line-height: 1.5em;
     }
   }
+
+  span.nobr {
+    white-space: nowrap;
+  }
  
   @media screen and (min-width: 600px) {
     #main .mobile,
@@ -59,17 +69,80 @@
     }
   }
   #main div.mobile.hero {
-    background-color: #90979B;
+    background: #eaeaea;
+    background: -moz-linear-gradient(left, #eaeaea 0%, #90979b 65%, #90979b 100%);
+    background: -webkit-linear-gradient(left, #eaeaea 0%,#90979b 65%,#90979b 100%);
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-5-grid.png"),linear-gradient(to right, #eaeaea 0%,#90979b 65%,#90979b 100%);
+    background-size: 112% auto;
+    background-position-y: -4px;
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#90979b',GradientType=1 );
   }
+
   #main div.mobile.video {
     background-color: #D7D7D7;
   }
   #main div.mobile.lock {
-    background-color: #86A6BF;
+    /* background-color: #86A6BF; */
+    background: #86a6bf;
+    background: -moz-linear-gradient(left, #86a6bf 0%, #86a6bf 40%, #e8e9ef 100%);
+    background: -webkit-linear-gradient(left, #86a6bf 0%,#86a6bf 40%,#e8e9ef 100%);
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"),linear-gradient(to right, #86a6bf 0%,#86a6bf 40%,#e8e9ef 100%);
+    background-size: 112% auto;
+    background-position-x: -26px;
+    background-position-y: -45px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a6bf', endColorstr='#e8e9ef',GradientType=1 );
   }
   #main div.mobile.cross {
+
     background-color: #DAE1DA;
+    padding: 0;
+
+    p {
+      padding: 1rem .75rem;
+    }
+
+    ul.mob-menu {
+      display: flex;
+      display: -webkit-flex;
+      background-color: #DAE1DA;
+
+      li {
+        flex: 1;
+        -webkit-flex: 1;
+
+        a {
+          border-top: none;
+          background-color: #DAE1DA;
+          color: #465259;
+          margin-right: 0;
+          margin-left: 0;
+          padding: 1.8em 0;
+          display: flex;
+          display: -webkit-flex;
+          justify-content: center;
+          -webkit-justify-content: center;
+          align-items: center;
+          -webkit-align-items: center;
+
+          i {
+            background-color: transparent;
+            color: #465259;
+            margin-right: 0;
+            font-size: 2.2rem;
+
+          }
+        }
+      }
+
+    }
+
+    span.fontawesome-text {
+      display: none;
+    }
+
   }
+
   #main section.home-section {
     width: 100%;
     height: 44vw;
@@ -116,7 +189,7 @@
   }
   @media screen and (max-width: 690px) {
     #main section.home-section .hero h2 {
-      font-size: 17px;
+      font-size: 19px;
     }
     #main section.home-section .hero p {
       font-size: 15px;
@@ -136,7 +209,8 @@
         padding: 0;
 
         h3 {
-          margin: .5em!important;
+          padding: 1rem .75rem;
+          margin-bottom: 0;
         }
     }
   }
@@ -157,8 +231,8 @@
     -webkit-flex: 0 1 28%;
   }
   #main section.home-section aside.hero {
-    width: 19em;
-    max-width: 48%;
+    // width: 19em;
+    // max-width: 48%;
   }
   #main section#hero {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-1.jpg");
@@ -228,14 +302,18 @@
     padding: 10% 5% 12%;
   }
   #main div.mobile {
-    padding: 1.4em .75em;
+    padding: 1rem .75rem;
+    border-top: 2px solid #90979B;
+    border-top: 2px solid rgba(115, 115, 115, 0.34);
   }
   #main div.mobile h2 {
-    font-size: 17px;
+    font-size: 19px;
+    margin-bottom: .4em;
   }
   #main div.mobile p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
+    padding: 0;
     line-height: 1.5em;
   } 
   #main section#cross aside.left {
@@ -247,8 +325,8 @@
       section#video .video-container {
         box-shadow: none;
       }
-      section#cross aside {
-        top: 65%;
+      section#cross aside.left {
+        max-width: 63%;
       }
       section.home-section aside {
         /* top: 50%;
@@ -258,16 +336,17 @@
       section.home-section aside h2 {
         font-size: 17px;
       }
+      section#cross.home-section aside h2 {
+        font-size: 19px;
+        margin-bottom: 0;
+        padding-top: 1em;
+      }
       section.home-section aside.left {
         /* max-width: 50%;
         left: 0;
         padding: 0 .75em; */
       }
-      section.home-section aside.right {
-        // max-width: 50%;
-        // right: 0;
-        padding: 0 .75em;
-      }
+
       ul.desk-menu {
         display: none!important;
       }
@@ -337,7 +416,7 @@
         display: flex;
         display: -webkit-flex;
         line-height: 20px;
-        transition: border-color .2s linear;
+        transition: all .25s linear;
       } 
 
       .lock.desk-menu .new-button {
@@ -379,7 +458,7 @@
     }
 
     .new-button a:hover {
-      // background-color: #932D91;
+      background-color: #932D91;
       color: #fff;
       border-color: #fff;
       box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.65);
@@ -439,19 +518,19 @@
   }
   ul.mob-menu li {
     margin-top: 0;
+      letter-spacing: .06em;
+      font-weight: normal;
   }
   .mob-menu li a {
+      letter-spacing: .06em;
+      font-weight: normal;
       width: 100%;
       border: none;
       border-top: 2px solid #90979B;
       border-radius: 0;
       background-color: #465259;
       color: #fff;
-      padding: 1rem .75rem;
-      line-height: 1em;
-      font-family: 'proxima-nova';
-      font-size: 14px;
-      font-weight: bold;
+      padding: .65rem .75rem;
   }
 
   #lock-menu {
@@ -523,6 +602,8 @@
     }
     #cta-menu li a,
     .lock.mob-menu {
+      letter-spacing: .06em;
+      font-weight: normal;
       width: 100%;
       display: flex;
       display: -webkit-flex;
@@ -531,16 +612,15 @@
       border-radius: 0;
       background-color: #465259;
       color: #fff;
-      padding: .5em .75em;
       // line-height: 44px;
       font-family: 'proxima-nova';
       font-size: 15px;
-      font-weight: bold;
+      font-weight: normal;
       text-decoration: none;
       box-sizing: border-box;
       text-align: center;
       vertical-align: middle;
-      padding: 1rem .75rem;
+      padding: .65rem .75rem;
     }
     
   }
@@ -573,8 +653,8 @@
 
 body footer .member_images {
     margin-top: 0;
-    flex: 1 1 40%;
-    -webkit-flex: 1 1 40%;
+    flex: 1;
+    -webkit-flex: 1;
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
@@ -588,9 +668,24 @@ body footer .member_images {
  .ehnac {
     margin: 0;
     float: right;
+    margin-left: auto;
+
+    .ehnac_image{
+      background-size: contain!important;
+      width: 100%!important;
+    }
+    // flex: 0 1 40%;
+    // -webkit-flex: 0 1 40%;
   }
   .direct_trust {
     float: left;
+    flex: 0 1 40%;
+    -webkit-flex: 0 1 40%;
+
+    .direct_trust_image {
+      background-size: contain!important;
+      width: 100%!important;
+    }
   }
 }
 
@@ -603,9 +698,19 @@ body footer .member_images {
 
 .footer_text_wrap {
     flex: 1 1 60%;
+    -webkit-flex: 1 1 60%;
     text-align: left;
     order: 2;
     padding: 1.5em 0;
+
+}
+@media screen and (max-width: 460px) {
+  .footer_text_wrap .footer_contact_info {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: .5em;
+  }
 }
 
 body .footer_info_links ul {
@@ -624,7 +729,8 @@ body .footer_info_links ul {
 
 // fixed footer img width to remove the blank space on it's right added in by oversizing
 body footer .member_images .direct_trust {
-    width: 145px;
+    flex: 0 1 40%;
+    -webkit-flex: 0 1 40%;
 }
 
 // nav fix
@@ -646,8 +752,11 @@ background-size: cover;
   padding: 7% 5%;
 }
 .indent.slider {
-  padding: 6% 5% 5%;
+
 }
+
+
+
 
 .slick-slider {
   margin: 1em 0;
@@ -661,18 +770,42 @@ background-size: cover;
 
 @media screen and (max-width: 599px) {
   
-  .indent {
-    padding: 1.5rem .75rem;
+
+  .indent.slider {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
   }
+  .slick-slider {
+    padding: 1rem 0;
+    margin: 0 .75rem;
+  }
+
   .slick-slide {
   
     img {
-      border-bottom: none;
+      border-bottom: none!important;
     }
     p {
       display: none;
     }
     
+  }
+  aside.slider-text {
+    padding: 1rem .75rem;
+    margin-top: 0;
+    border-top: 2px solid lightgray;
+
+    h2 {
+      margin-bottom: .4em;
+      font-size: 19px;
+    }
+    p {
+      font-size: 16px;
+    }
   }
 }
 
@@ -754,14 +887,19 @@ background-size: cover;
       -webkit-flex-direction: row;
       flex-wrap: wrap;
       -webkit-flex-wrap: wrap;
-      align-items: flex-start;
-      -webkit-align-items: flex-start;
+      align-items: center;
+      -webkit-align-items: center;
       height: 100%;
       justify-content: flex-start;
       -webkit-justify-content: flex-start;
       max-width: 45%;
       padding-left: 55%;
       margin-right: 0;
+
+      p.desk {
+        margin-bottom: 1em;
+        max-width: 305px;
+      }
 }
 
 // font-awesome styles
@@ -781,45 +919,23 @@ li .fa {
     justify-content: center;
     /*box-sizing: content-box;*/
 }
-.new-button a i.fa {
-  transition: all .2s linear;
+.mob-menu li .fa {
+  font-size: 1.2rem;
+  margin-right: .5em;
 }
-// fix heart icon alignment by lowering it by 1px
-/* .fa-heartbeat:before {
-    position: relative;
-    top: 1px;
-} */
+
+.new-button a i.fa {
+  transition: all .25s linear;
+}
 
 .fa-info {
   cursor: help;
 }
 
-/* .fa.fa-heartbeat {
-  padding: 3px 3px;
-} */
-
-/* #main .new-button a:hover i.fa {
-    background-color: #fff;
-    color: #932D91;
-} */
-
-/* ul.mob-menu li a i {
-  display: none;
-} */
-
+.mob-menu span.fontawesome-text {
+    letter-spacing: .06em;
+    font-weight: normal;
+}
 span.fontawesome-text {
     margin-top: 1px;
 }
-
-// tooltip shadow
-/* .tooltip-right:hover:after {
-    box-shadow: 2px -2px 10px 0px rgba(0, 0, 0, 0.95);
-} */
-/* .fa {
-    padding: .4rem .4em .3em;
-    margin-right: .8em;
-    background-color: #465259;
-    border-radius: 35px;
-    font-size: .7rem;
-    line-height: 1;
-} */
