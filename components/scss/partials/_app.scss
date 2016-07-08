@@ -158,8 +158,13 @@
     font-weight: bold;
     line-height: 1.2em;
   }
+
   #main section.home-section .hero p {
     font-size: 18px;
+  }
+  #main section.home-section .hero p.desk {
+    width: 360px;
+    max-width: 50%;
   }
   #main section.home-section h2 {
     font-size: 23px;
@@ -175,7 +180,7 @@
       font-size: 19px;
     }
     #main section.home-section .hero p {
-      font-size: 17px;
+      font-size: 19px;
     }
     #main section.home-section h2 {
       font-size: 19px;
@@ -195,7 +200,7 @@
       font-size: 15px;
     }
     #main section.home-section h2 {
-      font-size: 17px;
+      font-size: 19px;
     }
     #main section.home-section h3 {
       font-size: 17px;
@@ -647,7 +652,7 @@
     -webkit-justify-content: center;
     align-items: center;
     -webkit-align-items: center;
-    padding: 1% 5%;
+    padding: 0 .75rem;
     max-width: 100%;
 }
 
@@ -701,7 +706,8 @@ body footer .member_images {
     -webkit-flex: 1 1 60%;
     text-align: left;
     order: 2;
-    padding: 1.5em 0;
+    padding: 0;
+    margin: 1em 0;
 
 }
 @media screen and (max-width: 460px) {

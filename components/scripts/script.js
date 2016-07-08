@@ -92,7 +92,6 @@ wow.init();
       });*/
 
 
-
   // Slick Carousel Settings
 $('.gallery-responsive').slick({
   dots: false,
@@ -101,13 +100,13 @@ $('.gallery-responsive').slick({
   infinite: true,
   speed: 300,
   arrows: false,
-  slidesToShow: 6,
+  slidesToShow: 5,
   slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 920,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         infinite: true,
         arrows: false

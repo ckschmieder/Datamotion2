@@ -86,11 +86,11 @@
 
   <section id="lock" class="home-section">
     <aside class="right">
-      <h2 class="wow fadeInRight">Build in security</br>& compliance</h2>
-      <p class="wow fadeInDown desk" data-wow-delay=".3s" data-wow-duration=".5s">Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
+      <h2 class="wow fadeIn" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
+      <p class="wow fadeInDown desk" data-wow-delay=".6s" data-wow-duration="1.2s">Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
       <ul id="lock-menu" class="button-wrap lock desk-menu">
-        <li class="new-button wow flipInX" data-wow-delay=".4s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
-        <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="">App Developer Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay="1.1s" data-wow-duration="1.5s"><a href="">App Developer Solutions</a></li>
       </ul>
     </aside>
   </section>
