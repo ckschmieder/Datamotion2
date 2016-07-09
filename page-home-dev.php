@@ -51,7 +51,7 @@
         </aside>
         <div class="gallery gallery-responsive portfolio_slider">
           <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".2s">
-            <a href="#">
+            <a href="https://www.datamotion.com/datamotion-securemail-project-for-dell-sonicwall/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/dell_blue_rgb-222-140.jpg" alt="dell">
               <p>View Case Study</p>
             </a>
@@ -69,7 +69,7 @@
             </a>
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".8s">
-            <a href="#">
+            <a href="https://www.datamotion.com/hipaa-compliant-secure-information-exchange-for-salesforce/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
               <p>View Case Study</p>
             </a>
@@ -86,11 +86,11 @@
 
   <section id="lock" class="home-section">
     <aside class="right">
-      <h2 class="wow fadeIn" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
-      <p class="wow fadeInDown desk" data-wow-delay=".6s" data-wow-duration="1.2s">Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
+      <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
+      <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
       <ul id="lock-menu" class="button-wrap lock desk-menu">
-        <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
-        <li class="new-button wow flipInX" data-wow-delay="1.1s" data-wow-duration="1.5s"><a href="">App Developer Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="">App Developer Solutions</a></li>
       </ul>
     </aside>
   </section>
@@ -116,13 +116,13 @@
   </div>
 
   <section id="social" class="cta-section home-section nav-section">
-    <h3>Stay up to date with us...</h3>
-    <ul id="cta-menu" class="link-wrap cta">
+    <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1.2s">Stay up to date with us...</h3>
+    <ul id="cta-menu" class="link-wrap cta wow flipInX" data-wow-delay="1.3s" data-wow-duration="1.5s">
       <li class="new-link"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
       <li class="new-link"><a href="https://www.datamotion.com/category/news/">News</a></li>
-      <li class="new-link"><a href="https://www.datamotion.com/category/news/">Events</a></li>
-      <li class="new-link"><a href="https://www.datamotion.com/about-us/contact-us/">Contact Us</a></li>
-      <li class="new-link"><a href="#">eNewsletter</a></li>
+      <li class="new-link"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
+      <li class="new-link"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
+      <li class="new-link"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
     </ul>
     <!-- Put Social Icons HERE -->
   </section>

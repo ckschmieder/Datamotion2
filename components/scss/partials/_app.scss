@@ -302,6 +302,8 @@
   }
   #main section#social {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-6.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
     height: auto!important;
     border-bottom: 2px solid #E4772F;
     padding: 10% 5% 12%;
@@ -507,9 +509,7 @@
 
   }
 
-  .logo-slider-wrap {
-    
-  }
+ 
 
 // Nav buttons - mobile
 
@@ -750,8 +750,8 @@ body footer .member_images .direct_trust {
 }
 #logo-slider {
   background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-3.jpg");
-  background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: repeat-y;
+background-size: contain;
 }
 
 .indent {
