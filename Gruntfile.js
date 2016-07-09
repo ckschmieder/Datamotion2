@@ -114,6 +114,6 @@ module.exports = function(grunt) {
   // grunt.loadNpmTasks('grunt-bower-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['concat', 'sass:dist', 'autoprefixer', 'watch' ]);
+  grunt.registerTask('default', ['concat', 'sass:dist', 'autoprefixer', 'cssmin', 'uglify', 'watch' ]);
 
 }; //wrapper function
