@@ -124,9 +124,7 @@
           align-items: center;
           -webkit-align-items: center;
 
-          a:hover {
-            box-shadow: none;
-          }
+          
 
           i {
             background-color: transparent;
@@ -135,6 +133,10 @@
             font-size: 2.2rem;
 
           }
+        }
+
+        a:hover {
+          box-shadow: none;
         }
       }
 

@@ -112,7 +112,7 @@
 
   <div class="mobile cross">
     <p>Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
-    <?php wp_nav_menu(array('menu_class' => 'mob-menu', 'container' => 'ul', 'theme_location' => 'info-new')); ?>
+    <?php wp_nav_menu(array('menu_class' => 'mob-menu cross', 'container' => 'ul', 'theme_location' => 'info-new')); ?>
   </div>
 
   <section id="social" class="cta-section home-section nav-section">
