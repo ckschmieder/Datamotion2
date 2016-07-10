@@ -84,14 +84,13 @@
   }
   #main div.mobile.lock {
     /* background-color: #86A6BF; */
-    background: #86a6bf;
-    background: -moz-linear-gradient(left, #86a6bf 0%, #86a6bf 40%, #e8e9ef 100%);
-    background: -webkit-linear-gradient(left, #86a6bf 0%,#86a6bf 40%,#e8e9ef 100%);
-    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"),linear-gradient(to right, #86a6bf 0%,#86a6bf 40%,#e8e9ef 100%);
-    background-size: 112% auto;
-    background-position-x: -26px;
-    background-position-y: -45px;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a6bf', endColorstr='#e8e9ef',GradientType=1 );
+    background: url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png'), #86a6bf; /* Old browsers */
+    background: -moz-linear-gradient(left, #86a6bf 0%, #8babc2 55%, #a9c0d2 66%, #e6edf3 100%); /* FF3.6-15 */
+    background: -webkit-url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png'), -webkit-linear-gradient(left, #86a6bf 0%,#8babc2 55%,#a9c0d2 66%,#e6edf3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png'), linear-gradient(to right, #86a6bf 0%,#8babc2 55%,#a9c0d2 66%,#e6edf3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a6bf', endColorstr='#e6edf3',GradientType=1 ); 
+    background-size: cover;
+    background-position: right 30px;
   }
   #main div.mobile.cross {
 
@@ -124,6 +123,10 @@
           -webkit-justify-content: center;
           align-items: center;
           -webkit-align-items: center;
+
+          a:hover {
+            box-shadow: none;
+          }
 
           i {
             background-color: transparent;
@@ -288,8 +291,7 @@
   }
 
   #main section#lock {
-    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-4.jpg");
-
+      background-image: url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png'), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-static.jpg");
   }
   #main section#cross {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-5.jpg");
@@ -341,7 +343,7 @@
                 transform: translate(0, -50%); */
       }
       section.home-section aside h2 {
-        font-size: 17px;
+        font-size: 19px;
       }
       section#cross.home-section aside h2 {
         font-size: 19px;
@@ -906,6 +908,26 @@ background-size: contain;
         margin-bottom: 1em;
         max-width: 305px;
       }
+}
+#main section#lock:after {
+   content: "";
+  width: 50%;
+  
+  background-image:url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-hover.jpg');
+  background-repeat: no-repeat;
+  opacity: 0;
+  background-position: top left;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+  transition: all 1.2s ease;
+}
+#main section#lock:hover::after {
+  opacity: 1;
 }
 
 // font-awesome styles

@@ -117,12 +117,12 @@
 
   <section id="social" class="cta-section home-section nav-section">
     <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1.2s">Stay up to date with us...</h3>
-    <ul id="cta-menu" class="link-wrap cta wow flipInX" data-wow-delay="1.3s" data-wow-duration="1.5s">
-      <li class="new-link"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
-      <li class="new-link"><a href="https://www.datamotion.com/category/news/">News</a></li>
-      <li class="new-link"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
-      <li class="new-link"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
-      <li class="new-link"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
+    <ul id="cta-menu" class="link-wrap cta">
+      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/category/news/">News</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
     </ul>
     <!-- Put Social Icons HERE -->
   </section>
