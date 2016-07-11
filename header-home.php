@@ -91,23 +91,6 @@ $email_link = get_option('dm_social_email');
 					<a href="/"><div class="datamotion_logo">DataMotion</div></a>
 				</div>
 				<div class="row" id="mobile_social_and_drop">
-					<div class="social_icons_mobile">
-						<a href="<?php echo $facebook_link; ?>" target="_blank">
-							<div class="facebook_desktop"></div>
-						</a>
-						<a href="<?php echo $linkedin_link; ?>" target="_blank">
-							<div class="linkedin_desktop"></div>
-						</a>
-						<a href="<?php echo $twitter_link; ?>" target="_blank">
-							<div class="twitter_desktop"></div>
-						</a>
-						<a href="<?php echo $youtube_link; ?>" target="_blank">
-							<div class="youtube_desktop"></div>
-						</a>
-						<a href="<?php echo $email_link; ?>">
-							<div class="email_desktop"></div>
-						</a>
-					</div>
 					<div id="mobile_nav_icon" class="mobile_nav_drop_icon"></div>
 					<div class="clearfix"></div>
 					<div class="mobile_navigation">

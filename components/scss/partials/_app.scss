@@ -7,6 +7,19 @@
     }
   }
 
+  // Fix header logo
+  .datamotion_logo {
+    background-repeat: no-repeat;
+  }
+    // Make room for hamburger
+  @media screen and (max-width: 599px) {
+
+    .logo {
+      margin-bottom: .6em;
+    }
+
+  }
+  
   #nav_contain::after {
     content: '';
     display: block;

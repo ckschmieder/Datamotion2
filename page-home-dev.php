@@ -4,7 +4,7 @@
  */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('home'); ?>
 
 
   <section id="hero" class="home-section nav-section">
@@ -58,7 +58,7 @@
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".4s">
             <a href="#">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="">
+              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="guardian">
               <p>View Case Study</p>
             </a>
           </div>
@@ -75,8 +75,8 @@
             </a>
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1s">
-            <a href="#">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/Rite_Aid_Pharmacy.jpg" alt="rite aid pharmacy">
+            <a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">
+              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/07/SAIC-logo-resized.jpg" alt="saic">
               <p>View Case Study</p>
             </a>
           </div>
@@ -90,7 +90,7 @@
       <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
       <ul id="lock-menu" class="button-wrap lock desk-menu">
         <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="">IT Pro Solutions</a></li>
-        <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="">App Developer Solutions</a></li>
+        <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
       </ul>
     </aside>
   </section>
@@ -100,7 +100,7 @@
   </div>
   <ul class="button-wrap lock mob-menu">
       <li class="new-button"><a href="">IT Pro Solutions</a></li>
-      <li class="new-button"><a href="">App Developer Solutions</a></li>
+      <li class="new-button"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
   </ul>
 
   <section id="cross" class="home-section nav-section">
@@ -108,6 +108,9 @@
       <h2 class="wow fadeIn">Security & compliance shouldn't slow you down</h2>
       <p class="wow fadeInDown desk">Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
     </aside>
+    <div class="section_menu_contain">
+      <?php wp_nav_menu(array('container' => 'ul', 'menu_class' => 'desk-menu primary-menu', 'theme_location' => 'info-new')); ?>
+    </div>
   </section>
 
   <div class="mobile cross">
@@ -135,7 +138,7 @@
     ?>
 
     <nav>
-      <div class="row" id="mobile_social_and_drop">
+      <div class="" id="mobile_social_and_drop">
         <div class="social_icons_mobile">
           <a href="<?php echo $facebook_link; ?>" target="_blank">
             <div class="facebook_desktop"></div>
