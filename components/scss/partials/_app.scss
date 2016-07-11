@@ -83,17 +83,29 @@
     }
   }
   #main div.mobile.hero {
-    background: #eaeaea;
+    /* background: #eaeaea;
     background: -moz-linear-gradient(left, #eaeaea 0%, #90979b 65%, #90979b 100%);
     background: -webkit-linear-gradient(left, #eaeaea 0%,#90979b 65%,#90979b 100%);
-    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-5-grid.png"),linear-gradient(to right, #eaeaea 0%,#90979b 65%,#90979b 100%);
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-5-grid.png"),linear-gradient(to right, #eaeaea 0%,#90979b 65%,#90979b 100%); */
+
+    background-color: rgb(143, 151, 154);
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), linear-gradient(to right, rgba(234,234,236,1) 0%,rgba(202,206,209,1) 25%,rgba(156,164,167,1) 50%,rgba(143,151,154,1) 60%,rgba(143,151,154,1) 100%);
+    //background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), linear-gradient(to right, rgba(234,234,236,1) 0%,rgba(202,206,209,1) 25%,rgba(156,164,167,1) 50%,rgba(143,151,154,1) 60%,rgba(143,151,154,1) 100%);
+    //background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), linear-gradient(to right, rgba(234,234,236,1) 0%,rgba(202,206,209,1) 25%,rgba(156,164,167,1) 50%,rgba(143,151,154,1) 60%,rgba(143,151,154,1) 100%);
     background-size: 100% auto;
     background-position-y: bottom;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#90979b',GradientType=1 );
   }
 
   #main div.mobile.video {
-    background-color: #D7D7D7;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7d7d7+0,dcdcdc+50,f7f7f7+100 */
+    background: rgb(215,215,215); /* Old browsers */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), -moz-linear-gradient(left, rgba(215,215,215,1) 0%, rgba(220,220,220,1) 50%, rgba(247,247,247,1) 100%); /* FF3.6-15 */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), -webkit-linear-gradient(left, rgba(215,215,215,1) 0%,rgba(220,220,220,1) 50%,rgba(247,247,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), linear-gradient(to right, rgba(215,215,215,1) 0%,rgba(220,220,220,1) 50%,rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7d7', endColorstr='#f7f7f7',GradientType=1 ); /* IE6-9 */
+    background-size: cover;
+    background-position: right 30px;
   }
   #main div.mobile.lock {
     /* background-color: #86A6BF; */
@@ -180,7 +192,7 @@
   #main section.home-section .hero h2 {
     font-size: 27px;
     font-weight: bold;
-    line-height: 1.2em;
+    line-height: 1.4em;
   }
 
   #main section.home-section .hero p {
@@ -227,7 +239,7 @@
       font-size: 19px;
     }
     #main section.home-section h3 {
-      font-size: 17px;
+      font-size: 19px;
     }
     #main section.home-section p {
       font-size: 14px;
@@ -264,14 +276,17 @@
     // max-width: 48%;
   }
   #main section#hero {
-    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-1.jpg");
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-static.jpg");
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
     justify-content: space-around;
     -webkit-justify-content: space-around;
-
+    transition: background-image .15s linear;
+  }
+  #main section#hero:hover {
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-hover1.jpg");
   }
   #main section#video {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-2.jpg");
@@ -313,7 +328,11 @@
 
   #main section#lock {
       background-image: url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png'), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-static.jpg");
+      transition: background-image .15s linear;
   }
+  #main section#lock:hover {
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-hover.jpg");
+}
   #main section#cross {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-5.jpg");
     display: flex;
@@ -356,7 +375,7 @@
         box-shadow: none;
       }
       section#cross aside.left {
-        max-width: 63%;
+        max-width: 184px;
       }
       section.home-section aside {
         /* top: 50%;
@@ -366,6 +385,11 @@
       section.home-section aside h2 {
         font-size: 19px;
         font-weight: 600;
+      }
+      section#hero.home-section aside h2 {
+        font-size: 19px;
+        margin-bottom: 0;
+        margin-top: .8em;
       }
       section#cross.home-section aside h2 {
         font-size: 19px;
@@ -434,7 +458,7 @@
 
       a {
         padding: .4em .6em;
-        border: 2px solid #465259;
+        border: 1px solid #465259;
         background-color: #fff;
         border-radius: 5px;
         color: #465259;
@@ -447,7 +471,7 @@
         display: flex;
         display: -webkit-flex;
         line-height: 20px;
-        transition: all .25s linear;
+        transition: all .2s linear;
       } 
 
       .lock.desk-menu .new-button {
@@ -550,7 +574,7 @@
       font-weight: normal;
       width: 100%;
       border: none;
-      border-top: 2px solid #90979B;
+      border-top: 2px solid #fff;
       border-radius: 0;
       background-color: #465259;
       color: #fff;
@@ -594,6 +618,14 @@
     font-weight: bold;
     transition: border-bottom-width .05s cubic-bezier(1,0,0,1);
   }
+  @media screen and (max-width: 599px) {
+    #main #cta-menu a:hover {
+      background-color: #932D91;
+      color: #fff;
+      border-color: #fff;
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.65);
+    }
+  }
 
   @media screen and (min-width: 600px) {
     #cta-menu li a:hover,
@@ -627,24 +659,26 @@
     #cta-menu li a,
     .lock.mob-menu {
       letter-spacing: .06em;
-      font-weight: normal;
+      font-weight: bold;
       width: 100%;
       display: flex;
       display: -webkit-flex;
       border: none;
-      border-top: 2px solid #90979B;
+      border-top: 2px solid #fff;
       border-radius: 0;
       background-color: #465259;
       color: #fff;
       // line-height: 44px;
       font-family: 'proxima-nova';
       font-size: 15px;
-      font-weight: normal;
       text-decoration: none;
       box-sizing: border-box;
       text-align: center;
       vertical-align: middle;
       padding: .65rem .75rem;
+    }
+    .lock.mob-menu {
+      border-top: none;
     }
     
   }
@@ -926,7 +960,7 @@ background-size: contain;
         max-width: 305px;
       }
 }
-#main section#lock:after {
+/* #main section#lock:after {
    content: "";
   width: 50%;
   
@@ -945,7 +979,7 @@ background-size: contain;
 }
 #main section#lock:hover::after {
   opacity: 1;
-}
+} */
 
 // font-awesome styles
 li .fa {
@@ -970,7 +1004,7 @@ li .fa {
 }
 
 .new-button a i.fa {
-  transition: all .25s linear;
+  transition: all .2s linear;
 }
 
 .fa-info {
@@ -979,8 +1013,30 @@ li .fa {
 
 .mob-menu span.fontawesome-text {
     letter-spacing: .06em;
-    font-weight: normal;
+    font-weight: bold;
 }
 span.fontawesome-text {
     margin-top: 1px;
+}
+body #main #mobile_social_and_drop .social_icons_mobile .facebook_desktop {
+    background-image: url(../../../images/facebook_icon@2x.png);
+}
+
+@media screen and (min-width: 900px) {
+    
+    #main section {
+
+      h2 {
+        font-size: 24px!important;
+      }
+    
+      h3 {
+      font-size: 22px!important;
+      }
+
+      p {
+      font-size: 18px!important;
+      line-height: 27px!important;
+      }
+    }
 }

@@ -29,7 +29,7 @@
     <aside class="right desk">
       <h2 class="animated fadeIn">Security & compliance</br>- it's required</h2>
       <p class="animated fadeInDown">Securing communications containing PHI and PII 
-        <a class="tooltip tooltip-top" data-tooltip="Protected health info and personally indentifiable info">
+        <a class="tooltip tooltip-top" data-tooltip="protected health info and personally indentifiable info">
           <span class="fa-stack">
             <i class="fa fa-circle-thin fa-stack-2x"></i>
             <i class="fa fa-info fa-stack-1x"></i>
@@ -50,31 +50,31 @@
               <p>See how others protect their data and streamline their workflows.</p>
         </aside>
         <div class="gallery gallery-responsive portfolio_slider">
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".2s">
+          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".1s">
             <a href="https://www.datamotion.com/datamotion-securemail-project-for-dell-sonicwall/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/dell_blue_rgb-222-140.jpg" alt="dell">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".4s">
+          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".3s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="guardian">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".6s">
+          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".5s">
             <a href="#">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay=".8s">
+          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".7s">
             <a href="https://www.datamotion.com/hipaa-compliant-secure-information-exchange-for-salesforce/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
               <p>View Case Study</p>
             </a>
           </div>
-          <div class="wow flipInX inner"  data-wow-duration=".8s" data-wow-delay="1s">
+          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".9s">
             <a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/07/SAIC-logo-resized.jpg" alt="saic">
               <p>View Case Study</p>
@@ -108,7 +108,7 @@
       <h2 class="wow fadeIn">Security & compliance shouldn't slow you down</h2>
       <p class="wow fadeInDown desk">Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
     </aside>
-    <div class="section_menu_contain">
+    <div class="section_menu_contain wow fadeIn" data-wow-delay=".6s">
       <?php wp_nav_menu(array('container' => 'ul', 'menu_class' => 'desk-menu primary-menu', 'theme_location' => 'info-new')); ?>
     </div>
   </section>
@@ -119,13 +119,13 @@
   </div>
 
   <section id="social" class="cta-section home-section nav-section">
-    <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1.2s">Stay up to date with us...</h3>
+    <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Stay up to date with us...</h3>
     <ul id="cta-menu" class="link-wrap cta">
-      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
-      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/category/news/">News</a></li>
-      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
-      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
-      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".1s" data-wow-duration="1s"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".3s" data-wow-duration="1s"><a href="https://www.datamotion.com/category/news/">News</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1s"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".7s" data-wow-duration="1s"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
+      <li class="new-link wow flipInX" data-wow-delay=".9s" data-wow-duration="1s"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
     </ul>
 
     <?php
