@@ -66,6 +66,7 @@
       display: flex;
       display: -webkit-flex;
       list-style-type: none;
+      margin-bottom: 1em;
     }
   }
   #main div.mobile.hero {
@@ -73,9 +74,8 @@
     background: -moz-linear-gradient(left, #eaeaea 0%, #90979b 65%, #90979b 100%);
     background: -webkit-linear-gradient(left, #eaeaea 0%,#90979b 65%,#90979b 100%);
     background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-5-grid.png"),linear-gradient(to right, #eaeaea 0%,#90979b 65%,#90979b 100%);
-    background-size: 112% auto;
-    background-position-y: -4px;
-    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: bottom;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#90979b',GradientType=1 );
   }
 
@@ -94,11 +94,17 @@
   }
   #main div.mobile.cross {
 
-    background-color: #DAE1DA;
+    background: rgb(248,249,248); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(248,249,248,1) 0%, rgba(239,241,238,1) 25%, rgba(220,226,219,1) 54%, rgba(219,224,218,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(248,249,248,1) 0%,rgba(239,241,238,1) 25%,rgba(220,226,219,1) 54%,rgba(219,224,218,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(248,249,248,1) 0%,rgba(239,241,238,1) 25%,rgba(220,226,219,1) 54%,rgba(219,224,218,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9f8', endColorstr='#dbe0da',GradientType=1 ); 
     padding: 0;
 
     p {
       padding: 1rem .75rem;
+      background: url('https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-2qa.jpg');
+      background-size: cover;
     }
 
     ul.mob-menu {
@@ -325,7 +331,7 @@
     font-size: 16px;
     margin: 0;
     padding: 0;
-    line-height: 1.5em;
+    line-height: 1.4em;
   } 
   #main section#cross aside.left {
     max-width: 40%;
@@ -346,6 +352,7 @@
       }
       section.home-section aside h2 {
         font-size: 19px;
+        font-weight: 600;
       }
       section#cross.home-section aside h2 {
         font-size: 19px;
@@ -481,11 +488,6 @@
       border-color: #90979B;
       // box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.65);
     }
-    /* .new-link a:hover {
-      background-color: #932D91;
-      color: #fff;
-      border-color: #90979B;
-    } */
 
   }
 
@@ -828,7 +830,7 @@ background-size: contain;
     left: 0;
   }
   .slick-list.draggable {
-    margin: 0 25px;
+    margin: 0 20px;
   }
 
 }
@@ -902,8 +904,8 @@ background-size: contain;
       height: 100%;
       justify-content: flex-start;
       -webkit-justify-content: flex-start;
-      max-width: 45%;
-      padding-left: 55%;
+      max-width: 50%;
+      padding-left: 50%;
       margin-right: 0;
 
       p.desk {

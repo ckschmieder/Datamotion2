@@ -124,7 +124,37 @@
       <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
       <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1.2s"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
     </ul>
-    <!-- Put Social Icons HERE -->
+
+    <?php
+      // Social Links
+      $facebook_link = get_option('dm_social_facebook');
+      $linkedin_link = get_option('dm_social_linkedin');
+      $twitter_link = get_option('dm_social_twitter');
+      $youtube_link = get_option('dm_social_youtube');
+      $email_link = get_option('dm_social_email');
+    ?>
+
+    <nav>
+      <div class="row" id="mobile_social_and_drop">
+        <div class="social_icons_mobile">
+          <a href="<?php echo $facebook_link; ?>" target="_blank">
+            <div class="facebook_desktop"></div>
+          </a>
+          <a href="<?php echo $linkedin_link; ?>" target="_blank">
+            <div class="linkedin_desktop"></div>
+          </a>
+          <a href="<?php echo $twitter_link; ?>" target="_blank">
+            <div class="twitter_desktop"></div>
+          </a>
+          <a href="<?php echo $youtube_link; ?>" target="_blank">
+            <div class="youtube_desktop"></div>
+          </a>
+          <a href="<?php echo $email_link; ?>">
+            <div class="email_desktop"></div>
+          </a>
+        </div>
+      </div>
+    </nav>
   </section>
 
 
