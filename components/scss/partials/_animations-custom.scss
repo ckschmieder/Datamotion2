@@ -9,10 +9,10 @@
 }
 
 h2.animated {
-	animation-duration: 1.4s;
+	animation-duration: 1.2s;
 }
 p.desk.animated {
-	animation-duration: 1.2s;
+	animation-duration: 1s;
 }
  
 li.new-button.animated {
@@ -26,23 +26,23 @@ li.new-button.animated {
 		animation-delay: 1.4s;
 	}
 	p.desk.animated {
-		animation-delay: 2.9s;
+		animation-delay: 2.6s;
 	}
 
 	li.new-button.animated:nth-child(1) {
-		animation-delay: 4.2s;
+		animation-delay: 4s;
 	}
 	li.new-button.animated:nth-child(2) {
-		animation-delay: 4.3s;
+		animation-delay: 4.1s;
 	}
 	li.new-button.animated:nth-child(3) {
-		animation-delay: 4.4s;
+		animation-delay: 4.2s;
 	}
 	li.new-button.animated:nth-child(4) {
-		animation-delay: 4.5s;
+		animation-delay: 4.3s;
 	}
 	li.new-button.animated:nth-child(5) {
-		animation-delay: 4.6s;
+		animation-delay: 4.4s;
 	}
 }
 
@@ -51,14 +51,14 @@ li.new-button.animated {
 #video {
 
 	.desk h2.animated {
-		animation-delay: 1.4s;
+		animation-delay: 4s;
 	}
 	.desk p.animated {
-		animation-delay: 2.9s;
+		animation-delay: 5s;
 	}
 	.video-container.animated {
-		animation-duration: 1.4s;
-		animation-delay: 1.4s;
+		animation-duration: 1.2s;
+		animation-delay: 4s;
 	}
 
 }
