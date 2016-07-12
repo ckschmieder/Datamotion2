@@ -31,7 +31,7 @@
 
   // 4. The API will call this function when the video player is ready.
   function onPlayerReady(event) {
-    
+    player.mute()
   }
 
   // 5. The API calls this function when the player's state changes.
@@ -98,7 +98,7 @@ $('.gallery-responsive').slick({
   accessibility: true,
   autoplay: true,
   infinite: true,
-  speed: 300,
+  speed: 500,
   arrows: false,
   slidesToShow: 5,
   slidesToScroll: 1,
@@ -125,7 +125,7 @@ $('.gallery-responsive').slick({
       breakpoint: 460,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         arrows: true
       }
     }

@@ -75,7 +75,7 @@
             </a>
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".9s">
-            <a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">
+            <a href="https://www.datamotion.com/solutions/success-story-improved-workflow-for-u-s-military-rfps/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/07/SAIC-logo-resized.jpg" alt="saic">
               <p>View Case Study</p>
             </a>
