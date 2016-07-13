@@ -1,0 +1,111 @@
+
+// footer
+#main footer {
+  max-width: 100%;
+}
+
+.footer_flex_wrap {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 0 .75rem;
+    max-width: 100%;
+}
+
+body footer .member_images {
+    margin-top: 0;
+    flex: 1;
+    -webkit-flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+body footer .member_images {
+
+  max-width: 100%; 
+
+ .ehnac {
+    margin: 0;
+    float: right;
+    margin-left: auto;
+
+    .ehnac_image{
+      background-size: contain!important;
+      width: 100%!important;
+    }
+    // flex: 0 1 40%;
+    // -webkit-flex: 0 1 40%;
+  }
+  .direct_trust {
+    float: left;
+    flex: 0 1 40%;
+    -webkit-flex: 0 1 40%;
+
+    .direct_trust_image {
+      background-size: contain!important;
+      width: 100%!important;
+    }
+  }
+}
+
+.member_images {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.footer_text_wrap {
+    flex: 1 1 60%;
+    -webkit-flex: 1 1 60%;
+    text-align: left;
+    order: 2;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.footer_contact_info {
+    margin-bottom: .6em;
+}
+
+@media screen and (max-width: 460px) {
+  .footer_contact_info {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: .5em;
+  }
+  .footer_info_links ul {
+    text-align: center;
+  }
+}
+
+.footer_info_links ul {
+    text-align: left;
+
+    li {
+      font-size: 14px;
+
+      a {
+        text-transform: initial;
+        font-size: 14px;
+      }
+    }
+    
+}
+
+
+// fixed footer img width to remove the blank space on it's right added in by oversizing
+body footer .member_images .direct_trust {
+    flex: 0 1 40%;
+    -webkit-flex: 0 1 40%;
+}
