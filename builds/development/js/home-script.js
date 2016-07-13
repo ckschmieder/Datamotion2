@@ -138,5 +138,22 @@ $('.gallery-responsive').slick({
   ]
 });
 
-
+$(function() {
+  $("#typed").typed({
+    strings: ["reputation","messages","email","files"],
+    typeSpeed: 90,
+    backDelay: 2000,
+    loop: true,
+    callback: function(){}
+  });
+});
+$(function() {
+  $("#typed2").typed({
+    strings: ["data","reputation","messages","email","files"],
+    typeSpeed: 90,
+    backDelay: 2000,
+    loop: true,
+    callback: function(){}
+  });
+});
   
