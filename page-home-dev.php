@@ -59,13 +59,13 @@
             </a>
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".3s">
-            <a href="#">
+            <a href="https://www.datamotion.com/solutions/insurance-and-financial-services-email-compliance-solution/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="guardian">
               <p>View Case Study</p>
             </a>
           </div>
           <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".5s">
-            <a href="#">
+            <a href="https://www.datamotion.com/solutions/insurance-and-financial-services-email-compliance-solution/">
               <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
               <p>View Case Study</p>
             </a>
