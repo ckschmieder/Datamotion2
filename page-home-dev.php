@@ -10,7 +10,6 @@
   <section id="hero" class="home-section nav-section">
     <aside class="left hero">
       <h2>Protect your data - and your <span id="typed" class="typed"></span></h2>
-      <h2>Protect your <span id="typed2" class="typed"></span></h2>
       <!-- <h2 class="animated fadeIn"><span class="nobr">Protect your data - </span></br><span class="nobr">and your reputation</span></h2> -->
       <p class="desk animated fadeInDown">Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
     </aside>
