@@ -276,7 +276,7 @@
     // max-width: 48%;
   }
   #main section#hero {
-    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid2.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-static2.jpg");
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid2.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-static2a.jpg");
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -916,7 +916,8 @@ body #main #mobile_social_and_drop .social_icons_mobile .facebook_desktop {
         font-size: 24px!important;
       }
       .hero h2 {
-        font-size: 32px!important;
+        font-size: 34px!important;
+        margin-bottom: .7em;
       }
     
       h3 {
@@ -958,6 +959,7 @@ body #main #mobile_social_and_drop .social_icons_mobile .facebook_desktop {
     100% { opacity:.8; }
 }
 .typed {
+  font-weight: 600;
   color: #fff;
   border-bottom: 4px solid #932D91;
 }
@@ -969,7 +971,7 @@ body #main #mobile_social_and_drop .social_icons_mobile .facebook_desktop {
 #main #hero {
 
   height: 56vw;
-  max-height: 504px!important;
+  max-height: 540px!important;
 
   ul.desk-menu.primary-menu.desk-menu {
     flex-direction: column;
@@ -1004,4 +1006,7 @@ body #main #mobile_social_and_drop .social_icons_mobile .facebook_desktop {
       top: 0;
   }
 
+}
+ul#menu-footer-links {
+    text-align: left;
 }
