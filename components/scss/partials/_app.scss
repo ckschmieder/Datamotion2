@@ -216,7 +216,7 @@
       font-size: 19px;
     }
     #main section.home-section .hero p {
-      font-size: 19px;
+      font-size: 17px;
     }
     #main section.home-section h2 {
       font-size: 19px;
@@ -276,7 +276,7 @@
     // max-width: 48%;
   }
   #main section#hero {
-    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-static.jpg");
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid2.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-static2.jpg");
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -285,9 +285,9 @@
     -webkit-justify-content: space-around;
     transition: background-image .15s linear;
   }
-  #main section#hero:hover {
+  /* #main section#hero:hover {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-grid1.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-hover1.jpg");
-  }
+  } */
 
   #main section#video {
     background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-2.jpg");
@@ -394,6 +394,7 @@
       font-size: 19px;
       margin-bottom: 0;
       margin-top: .8em;
+      max-width: 40%;
     }
     section#cross.home-section aside h2 {
       font-size: 19px;
@@ -454,7 +455,7 @@
       margin-top: .5em;
 
       a {
-        padding: .4em .6em;
+        padding: .35em .6em;
         border: 1px solid #465259;
         background-color: #fff;
         border-radius: 5px;
@@ -953,5 +954,43 @@ body #main #mobile_social_and_drop .social_icons_mobile .facebook_desktop {
     100% { opacity:.8; }
 }
 .typed {
+  color: #fff;
   border-bottom: 4px solid #932D91;
 }
+
+// Section 1 redesign
+
+
+
+#main #hero {
+
+  height: 56vw;
+  max-height: 504px!important;
+
+  ul.desk-menu.primary-menu.desk-menu {
+    flex-direction: column;
+
+
+    a {
+      max-width: 175px;
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+
+  #main #hero {
+
+    ul.desk-menu.primary-menu.desk-menu {
+
+      margin-top: 1em;
+      margin-bottom: 0;
+
+      li {
+        margin-top: 1em;
+      }
+
+    }
+  }
+
+}
+

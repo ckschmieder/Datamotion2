@@ -138,18 +138,12 @@ $('.gallery-responsive').slick({
   ]
 });
 
+
+// Typed.js settings
+
 $(function() {
   $("#typed").typed({
-    strings: ["reputation","messages","email","files"],
-    typeSpeed: 90,
-    backDelay: 2000,
-    loop: true,
-    callback: function(){}
-  });
-});
-$(function() {
-  $("#typed2").typed({
-    strings: ["data","reputation","messages","email","files"],
+    strings: ["reputation","bottom line","work flows"],
     typeSpeed: 90,
     backDelay: 2000,
     loop: true,
