@@ -11,14 +11,14 @@
     <aside class="left hero">
       <h2>Protect your data - and your <span id="typed" class="typed"></span></h2>
       <!-- <h2 class="animated fadeIn"><span class="nobr">Protect your data - </span></br><span class="nobr">and your reputation</span></h2> -->
-      <p class="desk animated fadeInDown">Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
+      <p class="desk animated fadeInDown">Send secure, compliant messages, email and files from anywhere, <span class="nobr">to anywhere.</span></p>
     </aside>
     <div class="section_menu_contain">
       <?php wp_nav_menu(array('container' => 'ul', 'menu_class' => 'desk-menu primary-menu', 'theme_location' => 'info-new')); ?>
     </div>
   </section>
   <div class="mobile hero">
-    <p>Send secure, compliant messages, email and files from anywhere, to anywhere.</p>
+    <p>Send secure, compliant messages, email and files from anywhere, <span class="nobr">to anywhere.</span></p>
   </div>
   
   <?php wp_nav_menu(array('menu_class' => 'mob-menu', 'container' => 'ul', 'theme_location' => 'info-new')); ?>

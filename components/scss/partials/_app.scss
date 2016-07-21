@@ -5,6 +5,9 @@
       font-size: inherit;
       line-height: inherit;
     }
+    span.nobr {
+      white-space: nowrap;
+    }
   }
 
   // Fix header logo
@@ -394,7 +397,7 @@
       font-size: 19px;
       margin-bottom: 0;
       margin-top: .8em;
-      max-width: 150px;
+      max-width: 138px;
     }
     section#cross.home-section aside h2 {
       font-size: 19px;
