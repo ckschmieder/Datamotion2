@@ -23,42 +23,41 @@ li.new-button.animated {
 #hero {
 	h2.animated {
 		animation-duration: 1.4s;
-		animation-delay: 1.4s;
+		animation-delay: 0.1s;
 	}
 	p.desk.animated {
-		animation-delay: 2.6s;
+		animation-delay: 0.5s;
 	}
 
 	li.new-button.animated:nth-child(1) {
-		animation-delay: 4s;
+		animation-delay: 1.6s;
 	}
 	li.new-button.animated:nth-child(2) {
-		animation-delay: 4.1s;
+		animation-delay: 1.7s;
 	}
 	li.new-button.animated:nth-child(3) {
-		animation-delay: 4.2s;
+		animation-delay: 1.8s;
 	}
 	li.new-button.animated:nth-child(4) {
-		animation-delay: 4.3s;
+		animation-delay: 1.9s;
 	}
 	li.new-button.animated:nth-child(5) {
-		animation-delay: 4.4s;
+		animation-delay: 2s;
 	}
 }
-
 
 // Video Section
 #video {
 
 	.desk h2.animated {
-		animation-delay: 4s;
+		animation-delay: 0.1s;
 	}
 	.desk p.animated {
-		animation-delay: 5s;
+		animation-delay: 0.5s;
 	}
 	.video-container.animated {
 		animation-duration: 1.2s;
-		animation-delay: 4s;
+		animation-delay: 2.8s;
 	}
 
 }
