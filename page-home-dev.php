@@ -6,7 +6,7 @@
 
 <?php get_header('home'); ?>
 
-
+<div class="hero-wrap full-width-wrap">
   <section id="hero" class="home-section nav-section">
     <aside class="left hero">
       <h2>Protect your data - and your <span id="typed" class="typed"></span></h2>
@@ -17,12 +17,15 @@
       <?php wp_nav_menu(array('container' => 'ul', 'menu_class' => 'desk-menu primary-menu', 'theme_location' => 'info-new')); ?>
     </div>
   </section>
+
   <div class="mobile hero">
     <p>Send secure, compliant messages, email and files from anywhere, <span class="nobr">to anywhere.</span></p>
   </div>
   
   <?php wp_nav_menu(array('menu_class' => 'mob-menu', 'container' => 'ul', 'theme_location' => 'info-new')); ?>
-  
+</div><!-- end .full-width-wrap -->
+
+<div class="video-wrap full-width-wrap">
   <section id="video" class="home-section">
     <div class="animated fadeIn video-container">
       <div id="player"></div>
@@ -43,48 +46,52 @@
     <h2>Security & compliance - it's required</h2>
     <p>Securing communications containing PHI and PII is not optional - it's a legal requirement.</p>
   </div>
+</div><!-- end .full-width-wrap -->
 
+<div class="logo-slider-wrap full-width-wrap">
   <section id="logo-slider" class="home-section-slider">
-      <div class="indent slider">
-        <aside class="slider-text">
-          <h2>A platform for success</h2>
-              <p>See how others protect their data and streamline their workflows.</p>
-        </aside>
-        <div class="gallery gallery-responsive portfolio_slider">
-          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".1s">
-            <a href="https://www.datamotion.com/datamotion-securemail-project-for-dell-sonicwall/">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/dell_blue_rgb-222-140.jpg" alt="dell">
-              <p>View Case Study</p>
-            </a>
-          </div>
-          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".3s">
-            <a href="https://www.datamotion.com/solutions/insurance-and-financial-services-email-compliance-solution/">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="guardian">
-              <p>View Case Study</p>
-            </a>
-          </div>
-          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".5s">
-            <a href="https://www.datamotion.com/solutions/insurance-and-financial-services-email-compliance-solution/">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
-              <p>View Case Study</p>
-            </a>
-          </div>
-          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".7s">
-            <a href="https://www.datamotion.com/hipaa-compliant-secure-information-exchange-for-salesforce/">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
-              <p>View Case Study</p>
-            </a>
-          </div>
-          <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".9s">
-            <a href="https://www.datamotion.com/solutions/success-story-improved-workflow-for-u-s-military-rfps/">
-              <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/07/SAIC-logo-resized.jpg" alt="saic">
-              <p>View Case Study</p>
-            </a>
-          </div>
+    <div class="indent slider">
+      <aside class="slider-text">
+        <h2>A platform for success</h2>
+            <p>See how others protect their data and streamline their workflows.</p>
+      </aside>
+      <div class="gallery gallery-responsive portfolio_slider">
+        <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".1s">
+          <a href="https://www.datamotion.com/datamotion-securemail-project-for-dell-sonicwall/">
+            <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/dell_blue_rgb-222-140.jpg" alt="dell">
+            <p>View Case Study</p>
+          </a>
         </div>
-      </div> <!-- end .indent -->
-    </section>
+        <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".3s">
+          <a href="https://www.datamotion.com/solutions/insurance-and-financial-services-email-compliance-solution/">
+            <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/guardian1.jpg" alt="guardian">
+            <p>View Case Study</p>
+          </a>
+        </div>
+        <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".5s">
+          <a href="https://www.datamotion.com/solutions/insurance-and-financial-services-email-compliance-solution/">
+            <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/sunlifefinancial.jpg" alt="sunlife financial">
+            <p>View Case Study</p>
+          </a>
+        </div>
+        <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".7s">
+          <a href="https://www.datamotion.com/hipaa-compliant-secure-information-exchange-for-salesforce/">
+            <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/06/salesforce_logo_detail_2.png" alt="salesforce">
+            <p>View Case Study</p>
+          </a>
+        </div>
+        <div class="wow flipInX inner"  data-wow-duration=".5s" data-wow-delay=".9s">
+          <a href="https://www.datamotion.com/solutions/success-story-improved-workflow-for-u-s-military-rfps/">
+            <img class="logo-slide img-responsive portfolio-item" src="https://www.datamotion.com/wp-content/uploads/2016/07/SAIC-logo-resized.jpg" alt="saic">
+            <p>View Case Study</p>
+          </a>
+        </div>
+      </div>
+    </div><!-- end .indent -->
+  </section>
+</div><!-- end .full-width-wrap -->
 
+<div class="lock-wrap full-width-wrap">  
   <section id="lock" class="home-section">
     <aside class="right">
       <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
@@ -95,7 +102,6 @@
       </ul>
     </aside>
   </section>
-
   <div class="mobile lock">
     <p>Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
   </div>
@@ -103,7 +109,9 @@
       <li class="new-button"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
       <li class="new-button"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
   </ul>
+</div><!-- end .full-width-wrap -->
 
+<div class="cross-wrap full-width-wrap">  
   <section id="cross" class="home-section nav-section">
     <aside class="left">
       <h2 class="wow fadeIn">Security & compliance shouldn't slow you down</h2>
@@ -118,7 +126,9 @@
     <p>Streamline communications and accelerate positive outcomes while raising your security & compliance profile.</p>
     <?php wp_nav_menu(array('menu_class' => 'mob-menu cross', 'container' => 'ul', 'theme_location' => 'info-new')); ?>
   </div>
+</div><!-- end .full-width-wrap -->
 
+<div class="cross-wrap full-width-wrap">  
   <section id="social" class="cta-section home-section nav-section">
     <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Stay up to date with us...</h3>
     <ul id="cta-menu" class="link-wrap cta">
@@ -160,7 +170,7 @@
       </div>
     </nav>
   </section>
-
+</div><!-- end .full-width-wrap -->
 
 
 <?php get_footer('home'); ?>
