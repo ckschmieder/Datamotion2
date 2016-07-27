@@ -9,6 +9,7 @@
 <div class="hero-wrap full-width-wrap">
   <div class="inner-wrap">
     <section id="hero" class="home-section nav-section">
+      <img src="https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-1-static-w1.png" alt="">
       <aside class="left hero">
         <h2>Protect your data - and your <span id="typed" class="typed"></span></h2>
         <!-- <h2 class="animated fadeIn"><span class="nobr">Protect your data - </span></br><span class="nobr">and your reputation</span></h2> -->
@@ -30,7 +31,7 @@
 <div class="video-wrap full-width-wrap">
   <div class="inner-wrap">
     <section id="video" class="home-section">
-      <div class="animated fadeIn video-container">
+      <div class="video-container">
         <div id="player"></div>
       </div>
       <aside class="right desk">
@@ -57,7 +58,7 @@
   <div class="inner-wrap">  
     <section id="lock" class="home-section">
       <aside class="right">
-        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
+        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security & compliance</h2>
         <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
         <ul id="lock-menu" class="button-wrap lock desk-menu">
           <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
