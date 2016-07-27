@@ -139,7 +139,7 @@
   </div>
 </div><!-- end .full-width-wrap -->
 
-<div class="cross-wrap full-width-wrap">
+<div class="social-wrap full-width-wrap">
   <div class="inner-wrap">
     <section id="social" class="cta-section home-section nav-section">
       <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Stay up to date with us...</h3>
