@@ -52,6 +52,29 @@
   </div>
 </div><!-- end .full-width-wrap -->
 
+
+<div class="lock-wrap full-width-wrap">
+  <div class="inner-wrap">  
+    <section id="lock" class="home-section">
+      <aside class="right">
+        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
+        <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
+        <ul id="lock-menu" class="button-wrap lock desk-menu">
+          <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
+          <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
+        </ul>
+      </aside>
+    </section>
+    <div class="mobile lock">
+      <p>Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
+    </div>
+    <ul class="button-wrap lock mob-menu">
+        <li class="new-button"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
+        <li class="new-button"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
+    </ul>
+  </div>
+</div><!-- end .full-width-wrap -->
+
 <div class="logo-slider-wrap full-width-wrap">
   <div class="inner-wrap">
     <section id="logo-slider" class="home-section-slider">
@@ -94,28 +117,6 @@
         </div>
       </div><!-- end .indent -->
     </section>
-  </div>
-</div><!-- end .full-width-wrap -->
-
-<div class="lock-wrap full-width-wrap">
-  <div class="inner-wrap">  
-    <section id="lock" class="home-section">
-      <aside class="right">
-        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security</br>& compliance</h2>
-        <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
-        <ul id="lock-menu" class="button-wrap lock desk-menu">
-          <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
-          <li class="new-button wow flipInX" data-wow-delay=".9s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
-        </ul>
-      </aside>
-    </section>
-    <div class="mobile lock">
-      <p>Power your communication work flows & apps using our complete set of standard connectors, SDKs & APIs.</p>
-    </div>
-    <ul class="button-wrap lock mob-menu">
-        <li class="new-button"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
-        <li class="new-button"><a href="https://www.datamotion.com/products/securemail/encryption-sdk-datamotion-securemail/">App Developer Solutions</a></li>
-    </ul>
   </div>
 </div><!-- end .full-width-wrap -->
 
