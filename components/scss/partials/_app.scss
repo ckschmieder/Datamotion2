@@ -235,7 +235,7 @@
   }
   @media screen and (max-width: 690px) {
     #main section.home-section .hero h2 {
-      // font-size: 22px;
+      margin-bottom: .5em;
     }
     #main section.home-section .hero p {
       font-size: 16px;
@@ -473,7 +473,7 @@
 
     ul.desk-menu.primary-menu {
       display: flex;
-      display: -webkit-flex;
+      // display: -webkit-flex;
       flex-flow: row wrap;
       -webkit-flex-flow: row wrap;
       // max-width: 82%;
@@ -526,6 +526,8 @@
 
         li a {
           margin-right: .5em;
+          font-size: .75rem;
+          padding: .3em .6em;
         }
       }
 
@@ -597,7 +599,7 @@
   ul.mob-menu li {
     margin-top: 0;
       letter-spacing: .06em;
-      font-weight: normal;
+      font-weight: bold;
   }
   .mob-menu li a {
       letter-spacing: .06em;
@@ -901,6 +903,15 @@ li .fa {
     justify-content: center;
     /*box-sizing: content-box;*/
 }
+
+@media screen and (min-width: 601px) {
+  li .fa {
+    padding: 0;
+    width: 2em;
+    height: 2em;
+  }
+}
+
 .mob-menu li .fa {
   font-size: 1.2rem;
   margin-right: .5em;
@@ -957,29 +968,30 @@ Typed (typing effect) styles
 --------------------------------------*/
 
 .typed-cursor{
-    opacity: .8;
-  font-weight: normal;
+    opacity: .9;
+  font-weight: bolder;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
 @keyframes blink{
-    0% { opacity:.8; }
+    0% { opacity:.9; }
     50% { opacity:0; }
-    100% { opacity:.8; }
+    100% { opacity:.9; }
 }
 @-webkit-keyframes blink{
-    0% { opacity:.8; }
+    0% { opacity:.9; }
     50% { opacity:0; }
-    100% { opacity:.8; }
+    100% { opacity:.9; }
 }
 @-moz-keyframes blink{
-    0% { opacity:.8; }
+    0% { opacity:.9; }
     50% { opacity:0; }
-    100% { opacity:.8; }
+    100% { opacity:.9; }
 }
 .typed {
-  font-weight: 600;
+  font-weight: bold;
+  font-weight: bolder;
   color: #fff;
   border-bottom: 4px solid #932D91;
   text-shadow: 1px 0px 6px rgba(150, 150, 150, 1);
@@ -1041,9 +1053,7 @@ Section 1 redesign
 
 }
 
-ul#menu-footer-links {
-    text-align: left;
-}
+
 
 /*--------------------------------------
 Adjustments for full-width layout

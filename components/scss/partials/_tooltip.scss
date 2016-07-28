@@ -175,3 +175,11 @@
 .fa-stack-2x {
     font-size: 1.2em;
 }
+
+[data-tooltip]:hover:after {
+    border: 1px solid #c3c3c3;
+}
+span.fa-stack {
+    position: relative;
+    width: 15px;
+}

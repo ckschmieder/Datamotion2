@@ -69,7 +69,8 @@ wow.init();
 
 });
 
-
+// Remove animation from mobile menu buttons
+$( ".mob-menu li" ).removeClass( "animated" );
 
 // Set section width using jQuery
 

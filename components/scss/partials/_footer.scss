@@ -19,6 +19,11 @@
     max-width: 960px;
     margin: 0 auto;
 }
+@media screen and (max-width: 600px) {
+  .footer_flex_wrap {
+    display: block;
+  }
+}
 
 body footer .member_images {
     margin-top: 0;
@@ -74,20 +79,43 @@ body footer .member_images {
     margin: 1em 0;
 }
 
+.footer_text_wrap {
+  text-align: left;
+}
+
 .footer_contact_info {
     margin-bottom: .6em;
 }
 
-@media screen and (max-width: 460px) {
-  .footer_contact_info {
+body .footer_info_links ul {
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+
+  body .footer_info_links ul {
     text-align: center;
+  }
+
+  .footer_text_wrap {
+    text-align: center;
+  }
+
+  .footer_contact_info, 
+  .footer_info_links {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+
+  .footer_contact_info {
     margin: 0 auto;
     max-width: 300px;
     margin-bottom: .5em;
   }
-  .footer_info_links ul {
-    text-align: center;
-  }
+
 }
 
 .footer_info_links ul {
@@ -107,6 +135,8 @@ body footer .member_images {
 
 // fixed footer img width to remove the blank space on it's right added in by oversizing
 body footer .member_images .direct_trust {
-    flex: 0 1 40%;
-    -webkit-flex: 0 1 40%;
+  flex: 0 1 40%;
+  -webkit-flex: 0 1 40%;
+  width: 150px; 
+  margin-right: 20px;
 }

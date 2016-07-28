@@ -36,8 +36,7 @@
       </div>
       <aside class="right desk">
         <h2 class="animated fadeIn">Security & compliance</br>- it's required</h2>
-        <p class="animated fadeInDown">Securing communications containing PHI and PII 
-          <a class="tooltip tooltip-top" data-tooltip="protected health info and personally indentifiable info">
+        <p class="animated fadeInDown">Securing communications containing PHI and PII<a class="tooltip tooltip-top" data-tooltip="protected health info and personally indentifiable info">
             <span class="fa-stack">
               <i class="fa fa-circle-thin fa-stack-2x"></i>
               <i class="fa fa-info fa-stack-1x"></i>
@@ -58,7 +57,7 @@
   <div class="inner-wrap">  
     <section id="lock" class="home-section">
       <aside class="right">
-        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security <span class="nobr">& compliance</span></h2>
+        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security</br><span class="nobr">& compliance</span></h2>
         <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
         <ul id="lock-menu" class="button-wrap lock desk-menu">
           <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>
@@ -145,11 +144,11 @@
     <section id="social" class="cta-section home-section nav-section">
       <h3 class="wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Stay up to date with us...</h3>
       <ul id="cta-menu" class="link-wrap cta">
-        <li class="new-link wow flipInX" data-wow-delay=".1s" data-wow-duration="1s"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
-        <li class="new-link wow flipInX" data-wow-delay=".3s" data-wow-duration="1s"><a href="https://www.datamotion.com/category/news/">News</a></li>
-        <li class="new-link wow flipInX" data-wow-delay=".5s" data-wow-duration="1s"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
-        <li class="new-link wow flipInX" data-wow-delay=".7s" data-wow-duration="1s"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
-        <li class="new-link wow flipInX" data-wow-delay=".9s" data-wow-duration="1s"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
+        <li class="new-link"><a href="https://www.datamotion.com/category/blog/">Blog Posts</a></li>
+        <li class="new-link"><a href="https://www.datamotion.com/category/news/">News</a></li>
+        <li class="new-link"><a href="https://www.datamotion.com/upcoming-events/">Events</a></li>
+        <li class="new-link"><a href="https://www.datamotion.com/contact-sales/">Contact Us</a></li>
+        <li class="new-link"><a href="http://info.datamotion.com/newslettersignup?__hssc=&__hstc=&__hsfp=2862001475&hsCtaTracking=41b5ee89-f9f8-4544-9b12-905983ec4c2d%7C160ec1a6-73c4-49a7-bef9-8f2a64c08ae1">eNewsletter</a></li>
       </ul>
 
       <?php
