@@ -58,7 +58,7 @@
   <div class="inner-wrap">  
     <section id="lock" class="home-section">
       <aside class="right">
-        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security & compliance</h2>
+        <h2 class="wow fadeIn" data-wow-delay=".2s" data-wow-duration="1.4s">Build in security <span class="nobr">& compliance</span></h2>
         <p class="wow fadeInDown desk" data-wow-delay=".4s" data-wow-duration="1.2s">Power your communication workflows & apps using our complete set of standard connectors, SDKs & APIs.</p>
         <ul id="lock-menu" class="button-wrap lock desk-menu">
           <li class="new-button wow flipInX" data-wow-delay=".7s" data-wow-duration="1.5s"><a href="https://www.datamotion.com/solutions/solving-workflow-compliance-integration-challenges/">IT Pro Solutions</a></li>

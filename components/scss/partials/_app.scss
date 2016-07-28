@@ -67,7 +67,7 @@
     white-space: nowrap;
   }
   aside {
-    z-index: 99;
+    z-index: 9;
   }
  
   @media screen and (min-width: 600px) {
@@ -348,7 +348,31 @@
 #main section#lock:hover {
   background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-3-active-w1.jpg");
 }
+#main section#cross {
+  background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-5-static-w.jpg");
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  transition: background .25s linear;
+}
 
+@media screen and (max-width: 960px) {
+
+  #main section#lock {
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-static.jpg");
+  }
+  #main section#lock:hover {
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-grid.png"), url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-hover.jpg");
+  }
+
+  #main section#cross {
+    background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-5.jpg");
+  }
+
+}
 @media screen and (max-width: 599px) {
 
   #main section#lock {
@@ -357,15 +381,9 @@
 
 }
 
-#main section#cross {
-  background-image: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-5-static-w1.jpg");
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  justify-content: space-around;
-  -webkit-justify-content: space-around;
-}
+
+
+
 #main section#social {
   // background-image: url("https://www.datamotion.com/wp-content/uploads/2016/06/DM-Tile-6.jpg");
   background-size: contain;
@@ -854,7 +872,7 @@ Nav fix
       justify-content: flex-start;
       -webkit-justify-content: flex-start;
       float: right;
-      max-width: 35%;
+      max-width: 42%;
       margin-right: 0;
 
       p.desk {
@@ -1004,14 +1022,25 @@ Section 1 redesign
   }
 
 }
+@media screen and (max-width: 700px) {
+
+  #main section#lock aside.right {
+    max-width: 42%;
+  }
+
+}
 @media screen and (max-width: 599px) {
 
   aside.left.hero {
       position: absolute;
       top: 0;
   }
+  #main section#lock aside.right {
+    max-width: 9em;
+  }
 
 }
+
 ul#menu-footer-links {
     text-align: left;
 }
@@ -1063,14 +1092,27 @@ Adjustments for full-width layout
   .inner-wrap {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#86a6bf+0,e7edf2+100 */
     background: rgb(134,166,191); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(134,166,191,1) 0%, rgba(231,237,242,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(134,166,191,1) 0%,rgba(231,237,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(134,166,191,1) 0%,rgba(231,237,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-3-active-w1.jpg"), -moz-linear-gradient(left,  rgba(134,166,191,1) 0%, rgba(231,237,242,1) 100%); /* FF3.6-15 */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-3-active-w1.jpg"), -webkit-linear-gradient(left,  rgba(134,166,191,1) 0%,rgba(231,237,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-3-active-w1.jpg"), linear-gradient(to right,  rgba(134,166,191,1) 0%,rgba(231,237,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a6bf', endColorstr='#e7edf2',GradientType=1 ); /* IE6-9 */
     background-size: cover;
     background-repeat: no-repeat;
   }
 }
+@media screen and (max-width: 960px) {
+  .lock-wrap .inner-wrap {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#86a6bf+0,e7edf2+100 */
+    background: rgb(134,166,191); /* Old browsers */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-hover.jpg"), -moz-linear-gradient(left,  rgba(134,166,191,1) 0%, rgba(231,237,242,1) 100%); /* FF3.6-15 */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-hover.jpg"), -webkit-linear-gradient(left,  rgba(134,166,191,1) 0%,rgba(231,237,242,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url("https://www.datamotion.com/wp-content/uploads/2016/07/DM-Tile-4-hover.jpg"), linear-gradient(to right,  rgba(134,166,191,1) 0%,rgba(231,237,242,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a6bf', endColorstr='#e7edf2',GradientType=1 ); /* IE6-9 */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 #hero img {
     position: absolute;
     top: 0;
