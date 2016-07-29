@@ -141,7 +141,7 @@ $('.gallery-responsive').slick({
 
 $(function() {
   $("#typed").typed({
-    strings: ["reputation","bottom line","work flows"],
+    strings: ["reputation","bottom line","workflows"],
     typeSpeed: 90,
     backDelay: 2000,
     loop: true,
