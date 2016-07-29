@@ -50,6 +50,41 @@ $email_link = get_option('dm_social_email');
 	<![endif]-->
 	<link rel="author" href="https://plus.google.com/111376157391593599628/posts"/>
 
+
+	<!--Begin Manticore Technology Code-->
+	<!--Copyright 2000-2016, Manticore Technology Corporation.  All rights reserved.  Patent pending.--> 
+	<!--Consumer Privacy Statement available at www.ManticoreTechnology.com/ConsumerPrivacy.asp-->
+	<!--www.ManticoreTechnology.com-->
+
+	<script language="javascript" type="text/javascript">
+		var MTC_GROUP="503";
+		var MTC_ID="15081";
+		var MTC_Key="0C7EF262-DE3F-4AFE-BE37-79313832ABBC";
+	</script>
+
+	<script language="JavaScript">var MTCjsv;</script>
+	<script language="JavaScript1.0">MTCjsv="1.0";</script>
+	<script language="JavaScript1.1">MTCjsv="1.1";</script>
+	<script language="JavaScript1.2">MTCjsv="1.2";</script>
+	<script language="JavaScript1.3">MTCjsv="1.3";</script>
+	<script language="JavaScript1.4">MTCjsv="1.4";</script>
+	<script language="JavaScript1.5">MTCjsv="1.5";</script>
+	<script language="JavaScript1.6">MTCjsv="1.6";</script>
+	<script language="JavaScript1.7">MTCjsv="1.7";</script>
+	<script language="JavaScript" src="http://stats.manticoretechnology.com/mtcJSAPI.js"></script>
+
+	<!--Begin Optional Configuration-->
+	<script language="javascript" type="text/javascript">
+		
+	</script>
+	<!--End Optional Configuration-->
+
+	<script language="javascript" type="text/javascript">
+		mtcGO();
+	</script>
+	<!--End Manticore Technology Code-->
+
+
   <!--Start of Zopim Live Chat Script-->
   <script type="text/javascript">
   window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
